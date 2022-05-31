@@ -1,0 +1,351 @@
+from_id,from_cat,to_id,to_cat
+kobs_state-3c52653e-d403-11ec-a26f-00155d8545fd,target_access_kubernetes_dashboard,ktech-f0a70cc6-83e5-49e2-aa52-a3068c7304ef,Access Kubernetes dashboard
+kobs_state-3c52661f-d403-11ec-ba95-00155d8545fd,target_access_kubernetes_dashboard,ktech-f0a70cc6-83e5-49e2-aa52-a3068c7304ef,Access Kubernetes dashboard
+kobs_state-3c526672-d403-11ec-81a6-00155d8545fd,target_access_kubernetes_dashboard,ktech-f0a70cc6-83e5-49e2-aa52-a3068c7304ef,Access Kubernetes dashboard
+kobs_state-3c5266b8-d403-11ec-a7fa-00155d8545fd,target_access_kubernetes_dashboard,ktech-f0a70cc6-83e5-49e2-aa52-a3068c7304ef,Access Kubernetes dashboard
+kobs_state-3c5266f5-d403-11ec-bedf-00155d8545fd,target_access_kubernetes_dashboard,ktech-f0a70cc6-83e5-49e2-aa52-a3068c7304ef,Access Kubernetes dashboard
+kobs_state-3c526730-d403-11ec-9897-00155d8545fd,target_access_kubernetes_dashboard,ktech-f0a70cc6-83e5-49e2-aa52-a3068c7304ef,Access Kubernetes dashboard
+kobs_state-3c52676c-d403-11ec-bcbc-00155d8545fd,target_access_kubernetes_dashboard,ktech-f0a70cc6-83e5-49e2-aa52-a3068c7304ef,Access Kubernetes dashboard
+kobs_state-3c5267a2-d403-11ec-81b8-00155d8545fd,target_access_kubernetes_dashboard,ktech-f0a70cc6-83e5-49e2-aa52-a3068c7304ef,Access Kubernetes dashboard
+kobs_state-3c5267d8-d403-11ec-8cc7-00155d8545fd,target_access_kubernetes_dashboard,ktech-f0a70cc6-83e5-49e2-aa52-a3068c7304ef,Access Kubernetes dashboard
+kobs_state-3c52680f-d403-11ec-b6f7-00155d8545fd,target_access_kubernetes_dashboard,ktech-f0a70cc6-83e5-49e2-aa52-a3068c7304ef,Access Kubernetes dashboard
+kobs_state-3c527ca6-d403-11ec-b1b5-00155d8545fd,target_hostpath_mount,ktech-b887aec6-ea88-49e3-b349-3c0797c4723d,hostPath mount
+kobs_state-3c527d03-d403-11ec-8c96-00155d8545fd,target_hostpath_mount,ktech-b887aec6-ea88-49e3-b349-3c0797c4723d,hostPath mount
+kobs_state-3c527e20-d403-11ec-882b-00155d8545fd,target_hostpath_mount,ktech-b887aec6-ea88-49e3-b349-3c0797c4723d,hostPath mount
+kobs_state-3c527e73-d403-11ec-b1b3-00155d8545fd,target_hostpath_mount,ktech-b887aec6-ea88-49e3-b349-3c0797c4723d,hostPath mount
+kobs_state-3c527eaf-d403-11ec-92c1-00155d8545fd,target_hostpath_mount,ktech-b887aec6-ea88-49e3-b349-3c0797c4723d,hostPath mount
+kobs_state-3c527ee7-d403-11ec-a006-00155d8545fd,target_hostpath_mount,ktech-b887aec6-ea88-49e3-b349-3c0797c4723d,hostPath mount
+kobs_state-3c527f21-d403-11ec-8105-00155d8545fd,target_hostpath_mount,ktech-b887aec6-ea88-49e3-b349-3c0797c4723d,hostPath mount
+kobs_state-3c527f59-d403-11ec-a734-00155d8545fd,target_hostpath_mount,ktech-b887aec6-ea88-49e3-b349-3c0797c4723d,hostPath mount
+kobs_state-3c527f90-d403-11ec-8abe-00155d8545fd,target_hostpath_mount,ktech-b887aec6-ea88-49e3-b349-3c0797c4723d,hostPath mount
+kobs_state-3c527fcd-d403-11ec-a451-00155d8545fd,target_hostpath_mount,ktech-b887aec6-ea88-49e3-b349-3c0797c4723d,hostPath mount
+kobs_state-3c529430-d403-11ec-8903-00155d8545fd,target_applications_credentials_in_configuration_files,ktech-26c5a7ae-cf37-4f6b-93ad-bb47ffdc564c,Applications credentials in configuration files
+kobs_state-3c52948c-d403-11ec-8457-00155d8545fd,target_applications_credentials_in_configuration_files,ktech-26c5a7ae-cf37-4f6b-93ad-bb47ffdc564c,Applications credentials in configuration files
+kobs_state-3c5294cb-d403-11ec-b915-00155d8545fd,target_applications_credentials_in_configuration_files,ktech-26c5a7ae-cf37-4f6b-93ad-bb47ffdc564c,Applications credentials in configuration files
+kobs_state-3c529502-d403-11ec-a953-00155d8545fd,target_applications_credentials_in_configuration_files,ktech-26c5a7ae-cf37-4f6b-93ad-bb47ffdc564c,Applications credentials in configuration files
+kobs_state-3c529538-d403-11ec-b86e-00155d8545fd,target_applications_credentials_in_configuration_files,ktech-26c5a7ae-cf37-4f6b-93ad-bb47ffdc564c,Applications credentials in configuration files
+kobs_state-3c52956c-d403-11ec-8df7-00155d8545fd,target_applications_credentials_in_configuration_files,ktech-26c5a7ae-cf37-4f6b-93ad-bb47ffdc564c,Applications credentials in configuration files
+kobs_state-3c5295a2-d403-11ec-b8cb-00155d8545fd,target_applications_credentials_in_configuration_files,ktech-26c5a7ae-cf37-4f6b-93ad-bb47ffdc564c,Applications credentials in configuration files
+kobs_state-3c5295d6-d403-11ec-870c-00155d8545fd,target_applications_credentials_in_configuration_files,ktech-26c5a7ae-cf37-4f6b-93ad-bb47ffdc564c,Applications credentials in configuration files
+kobs_state-3c529609-d403-11ec-9049-00155d8545fd,target_applications_credentials_in_configuration_files,ktech-26c5a7ae-cf37-4f6b-93ad-bb47ffdc564c,Applications credentials in configuration files
+kobs_state-3c52963c-d403-11ec-952b-00155d8545fd,target_applications_credentials_in_configuration_files,ktech-26c5a7ae-cf37-4f6b-93ad-bb47ffdc564c,Applications credentials in configuration files
+kobs_state-3c52af03-d403-11ec-aac7-00155d8545fd,target_pod_container_name_similarity,ktech-5e328d1a-c14d-4031-99c0-d107731563e3,Pod / container name similarity
+kobs_state-3c52af5d-d403-11ec-b9ea-00155d8545fd,target_pod_container_name_similarity,ktech-5e328d1a-c14d-4031-99c0-d107731563e3,Pod / container name similarity
+kobs_state-3c52af9c-d403-11ec-aa85-00155d8545fd,target_pod_container_name_similarity,ktech-5e328d1a-c14d-4031-99c0-d107731563e3,Pod / container name similarity
+kobs_state-3c52b01c-d403-11ec-ba28-00155d8545fd,target_pod_container_name_similarity,ktech-5e328d1a-c14d-4031-99c0-d107731563e3,Pod / container name similarity
+kobs_state-3c52b059-d403-11ec-8113-00155d8545fd,target_pod_container_name_similarity,ktech-5e328d1a-c14d-4031-99c0-d107731563e3,Pod / container name similarity
+kobs_state-3c52b091-d403-11ec-a298-00155d8545fd,target_pod_container_name_similarity,ktech-5e328d1a-c14d-4031-99c0-d107731563e3,Pod / container name similarity
+kobs_state-3c52b0c9-d403-11ec-860d-00155d8545fd,target_pod_container_name_similarity,ktech-5e328d1a-c14d-4031-99c0-d107731563e3,Pod / container name similarity
+kobs_state-3c52b0fe-d403-11ec-b753-00155d8545fd,target_pod_container_name_similarity,ktech-5e328d1a-c14d-4031-99c0-d107731563e3,Pod / container name similarity
+kobs_state-3c52b133-d403-11ec-82ac-00155d8545fd,target_pod_container_name_similarity,ktech-5e328d1a-c14d-4031-99c0-d107731563e3,Pod / container name similarity
+kobs_state-3c52b16d-d403-11ec-8407-00155d8545fd,target_pod_container_name_similarity,ktech-5e328d1a-c14d-4031-99c0-d107731563e3,Pod / container name similarity
+kobs_state-3c52c5d5-d403-11ec-ab32-00155d8545fd,target_backdoor_container,ktech-312017d6-1fbe-4ad1-abe5-97c411d6c9f7,Backdoor container
+kobs_state-3c52c630-d403-11ec-8a39-00155d8545fd,target_backdoor_container,ktech-312017d6-1fbe-4ad1-abe5-97c411d6c9f7,Backdoor container
+kobs_state-3c52c670-d403-11ec-a3a9-00155d8545fd,target_backdoor_container,ktech-312017d6-1fbe-4ad1-abe5-97c411d6c9f7,Backdoor container
+kobs_state-3c52c6aa-d403-11ec-8e56-00155d8545fd,target_backdoor_container,ktech-312017d6-1fbe-4ad1-abe5-97c411d6c9f7,Backdoor container
+kobs_state-3c52c6e2-d403-11ec-b337-00155d8545fd,target_backdoor_container,ktech-312017d6-1fbe-4ad1-abe5-97c411d6c9f7,Backdoor container
+kobs_state-3c52c717-d403-11ec-a9f5-00155d8545fd,target_backdoor_container,ktech-312017d6-1fbe-4ad1-abe5-97c411d6c9f7,Backdoor container
+kobs_state-3c52c74d-d403-11ec-8678-00155d8545fd,target_backdoor_container,ktech-312017d6-1fbe-4ad1-abe5-97c411d6c9f7,Backdoor container
+kobs_state-3c52c782-d403-11ec-82b0-00155d8545fd,target_backdoor_container,ktech-312017d6-1fbe-4ad1-abe5-97c411d6c9f7,Backdoor container
+kobs_state-3c52c7b7-d403-11ec-95ce-00155d8545fd,target_backdoor_container,ktech-312017d6-1fbe-4ad1-abe5-97c411d6c9f7,Backdoor container
+kobs_state-3c52c7ec-d403-11ec-93ae-00155d8545fd,target_backdoor_container,ktech-312017d6-1fbe-4ad1-abe5-97c411d6c9f7,Backdoor container
+kobs_state-3c52dfb1-d403-11ec-86f7-00155d8545fd,target_network_mapping,ktech-47087c4a-ac12-4f51-815a-233ac60b827c,Network mapping
+kobs_state-3c52e00a-d403-11ec-b068-00155d8545fd,target_network_mapping,ktech-47087c4a-ac12-4f51-815a-233ac60b827c,Network mapping
+kobs_state-3c52e047-d403-11ec-babc-00155d8545fd,target_network_mapping,ktech-47087c4a-ac12-4f51-815a-233ac60b827c,Network mapping
+kobs_state-3c52e07f-d403-11ec-84ba-00155d8545fd,target_network_mapping,ktech-47087c4a-ac12-4f51-815a-233ac60b827c,Network mapping
+kobs_state-3c52e0b5-d403-11ec-ab63-00155d8545fd,target_network_mapping,ktech-47087c4a-ac12-4f51-815a-233ac60b827c,Network mapping
+kobs_state-3c52e0eb-d403-11ec-bda3-00155d8545fd,target_network_mapping,ktech-47087c4a-ac12-4f51-815a-233ac60b827c,Network mapping
+kobs_state-3c52e122-d403-11ec-93f4-00155d8545fd,target_network_mapping,ktech-47087c4a-ac12-4f51-815a-233ac60b827c,Network mapping
+kobs_state-3c52e158-d403-11ec-9804-00155d8545fd,target_network_mapping,ktech-47087c4a-ac12-4f51-815a-233ac60b827c,Network mapping
+kobs_state-3c52e18e-d403-11ec-9be5-00155d8545fd,target_network_mapping,ktech-47087c4a-ac12-4f51-815a-233ac60b827c,Network mapping
+kobs_state-3c52e1c2-d403-11ec-bfaf-00155d8545fd,target_network_mapping,ktech-47087c4a-ac12-4f51-815a-233ac60b827c,Network mapping
+kobs_state-3c5303a4-d403-11ec-8a9e-00155d8545fd,target_vulnerable_application,ktech-be003bad-fc60-4ba7-868d-194f909d4c4b,Vulnerable application
+kobs_state-3c530404-d403-11ec-972e-00155d8545fd,target_vulnerable_application,ktech-be003bad-fc60-4ba7-868d-194f909d4c4b,Vulnerable application
+kobs_state-3c530444-d403-11ec-bbb6-00155d8545fd,target_vulnerable_application,ktech-be003bad-fc60-4ba7-868d-194f909d4c4b,Vulnerable application
+kobs_state-3c53047e-d403-11ec-ad6a-00155d8545fd,target_vulnerable_application,ktech-be003bad-fc60-4ba7-868d-194f909d4c4b,Vulnerable application
+kobs_state-3c5304b5-d403-11ec-bd20-00155d8545fd,target_vulnerable_application,ktech-be003bad-fc60-4ba7-868d-194f909d4c4b,Vulnerable application
+kobs_state-3c5304ea-d403-11ec-89fc-00155d8545fd,target_vulnerable_application,ktech-be003bad-fc60-4ba7-868d-194f909d4c4b,Vulnerable application
+kobs_state-3c530523-d403-11ec-b33d-00155d8545fd,target_vulnerable_application,ktech-be003bad-fc60-4ba7-868d-194f909d4c4b,Vulnerable application
+kobs_state-3c53055b-d403-11ec-a88b-00155d8545fd,target_vulnerable_application,ktech-be003bad-fc60-4ba7-868d-194f909d4c4b,Vulnerable application
+kobs_state-3c530591-d403-11ec-8285-00155d8545fd,target_vulnerable_application,ktech-be003bad-fc60-4ba7-868d-194f909d4c4b,Vulnerable application
+kobs_state-3c5305c7-d403-11ec-b2de-00155d8545fd,target_vulnerable_application,ktech-be003bad-fc60-4ba7-868d-194f909d4c4b,Vulnerable application
+kobs_state-3c531cc0-d403-11ec-894d-00155d8545fd,target_cluster-admin_binding,ktech-1ccba6a5-ff26-4306-bd58-c652533540e6,Cluster-admin binding
+kobs_state-3c531d3a-d403-11ec-b2f3-00155d8545fd,target_cluster-admin_binding,ktech-1ccba6a5-ff26-4306-bd58-c652533540e6,Cluster-admin binding
+kobs_state-3c531d7b-d403-11ec-b238-00155d8545fd,target_cluster-admin_binding,ktech-1ccba6a5-ff26-4306-bd58-c652533540e6,Cluster-admin binding
+kobs_state-3c531db5-d403-11ec-806a-00155d8545fd,target_cluster-admin_binding,ktech-1ccba6a5-ff26-4306-bd58-c652533540e6,Cluster-admin binding
+kobs_state-3c531df1-d403-11ec-bf8d-00155d8545fd,target_cluster-admin_binding,ktech-1ccba6a5-ff26-4306-bd58-c652533540e6,Cluster-admin binding
+kobs_state-3c531e2a-d403-11ec-8323-00155d8545fd,target_cluster-admin_binding,ktech-1ccba6a5-ff26-4306-bd58-c652533540e6,Cluster-admin binding
+kobs_state-3c531e61-d403-11ec-8162-00155d8545fd,target_cluster-admin_binding,ktech-1ccba6a5-ff26-4306-bd58-c652533540e6,Cluster-admin binding
+kobs_state-3c531e99-d403-11ec-9e14-00155d8545fd,target_cluster-admin_binding,ktech-1ccba6a5-ff26-4306-bd58-c652533540e6,Cluster-admin binding
+kobs_state-3c531ee0-d403-11ec-9877-00155d8545fd,target_cluster-admin_binding,ktech-1ccba6a5-ff26-4306-bd58-c652533540e6,Cluster-admin binding
+kobs_state-3c531f18-d403-11ec-ba3c-00155d8545fd,target_cluster-admin_binding,ktech-1ccba6a5-ff26-4306-bd58-c652533540e6,Cluster-admin binding
+kobs_state-3c5333ca-d403-11ec-9bc5-00155d8545fd,target_cluster_internal_networking,ktech-63d3ac25-85f8-4c5b-b2e2-cce25363560e,Cluster internal networking
+kobs_state-3c533425-d403-11ec-b5c1-00155d8545fd,target_cluster_internal_networking,ktech-63d3ac25-85f8-4c5b-b2e2-cce25363560e,Cluster internal networking
+kobs_state-3c5334ba-d403-11ec-a9e7-00155d8545fd,target_cluster_internal_networking,ktech-63d3ac25-85f8-4c5b-b2e2-cce25363560e,Cluster internal networking
+kobs_state-3c5334f9-d403-11ec-a9ad-00155d8545fd,target_cluster_internal_networking,ktech-63d3ac25-85f8-4c5b-b2e2-cce25363560e,Cluster internal networking
+kobs_state-3c533531-d403-11ec-a182-00155d8545fd,target_cluster_internal_networking,ktech-63d3ac25-85f8-4c5b-b2e2-cce25363560e,Cluster internal networking
+kobs_state-3c533568-d403-11ec-9be5-00155d8545fd,target_cluster_internal_networking,ktech-63d3ac25-85f8-4c5b-b2e2-cce25363560e,Cluster internal networking
+kobs_state-3c5335a0-d403-11ec-9805-00155d8545fd,target_cluster_internal_networking,ktech-63d3ac25-85f8-4c5b-b2e2-cce25363560e,Cluster internal networking
+kobs_state-3c5335d6-d403-11ec-9ce7-00155d8545fd,target_cluster_internal_networking,ktech-63d3ac25-85f8-4c5b-b2e2-cce25363560e,Cluster internal networking
+kobs_state-3c53360c-d403-11ec-a680-00155d8545fd,target_cluster_internal_networking,ktech-63d3ac25-85f8-4c5b-b2e2-cce25363560e,Cluster internal networking
+kobs_state-3c533642-d403-11ec-8e18-00155d8545fd,target_cluster_internal_networking,ktech-63d3ac25-85f8-4c5b-b2e2-cce25363560e,Cluster internal networking
+kobs_state-3c534eef-d403-11ec-8af8-00155d8545fd,target_application_exploit,ktech-de76a07a-0935-4cea-9755-089a2da00020,Application exploit
+kobs_state-3c534f4c-d403-11ec-b6f6-00155d8545fd,target_application_exploit,ktech-de76a07a-0935-4cea-9755-089a2da00020,Application exploit
+kobs_state-3c534f8a-d403-11ec-9ff7-00155d8545fd,target_application_exploit,ktech-de76a07a-0935-4cea-9755-089a2da00020,Application exploit
+kobs_state-3c534fc3-d403-11ec-9128-00155d8545fd,target_application_exploit,ktech-de76a07a-0935-4cea-9755-089a2da00020,Application exploit
+kobs_state-3c534ffa-d403-11ec-8078-00155d8545fd,target_application_exploit,ktech-de76a07a-0935-4cea-9755-089a2da00020,Application exploit
+kobs_state-3c535032-d403-11ec-9264-00155d8545fd,target_application_exploit,ktech-de76a07a-0935-4cea-9755-089a2da00020,Application exploit
+kobs_state-3c53506a-d403-11ec-abd5-00155d8545fd,target_application_exploit,ktech-de76a07a-0935-4cea-9755-089a2da00020,Application exploit
+kobs_state-3c5350a1-d403-11ec-bb25-00155d8545fd,target_application_exploit,ktech-de76a07a-0935-4cea-9755-089a2da00020,Application exploit
+kobs_state-3c5350d5-d403-11ec-85f9-00155d8545fd,target_application_exploit,ktech-de76a07a-0935-4cea-9755-089a2da00020,Application exploit
+kobs_state-3c53510a-d403-11ec-ae1c-00155d8545fd,target_application_exploit,ktech-de76a07a-0935-4cea-9755-089a2da00020,Application exploit
+kobs_state-3c5365ca-d403-11ec-8a83-00155d8545fd,target_denial_of_service,ktech-cce3dfde-fcbc-4972-b666-e50403edb23e,Denial of service
+kobs_state-3c536621-d403-11ec-a749-00155d8545fd,target_denial_of_service,ktech-cce3dfde-fcbc-4972-b666-e50403edb23e,Denial of service
+kobs_state-3c53665f-d403-11ec-a07b-00155d8545fd,target_denial_of_service,ktech-cce3dfde-fcbc-4972-b666-e50403edb23e,Denial of service
+kobs_state-3c536698-d403-11ec-afb8-00155d8545fd,target_denial_of_service,ktech-cce3dfde-fcbc-4972-b666-e50403edb23e,Denial of service
+kobs_state-3c5366d0-d403-11ec-b6ab-00155d8545fd,target_denial_of_service,ktech-cce3dfde-fcbc-4972-b666-e50403edb23e,Denial of service
+kobs_state-3c536707-d403-11ec-88f4-00155d8545fd,target_denial_of_service,ktech-cce3dfde-fcbc-4972-b666-e50403edb23e,Denial of service
+kobs_state-3c53673f-d403-11ec-bd03-00155d8545fd,target_denial_of_service,ktech-cce3dfde-fcbc-4972-b666-e50403edb23e,Denial of service
+kobs_state-3c5368e1-d403-11ec-801b-00155d8545fd,target_denial_of_service,ktech-cce3dfde-fcbc-4972-b666-e50403edb23e,Denial of service
+kobs_state-3c536972-d403-11ec-9e3c-00155d8545fd,target_denial_of_service,ktech-cce3dfde-fcbc-4972-b666-e50403edb23e,Denial of service
+kobs_state-3c5369c3-d403-11ec-a926-00155d8545fd,target_denial_of_service,ktech-cce3dfde-fcbc-4972-b666-e50403edb23e,Denial of service
+kobs_state-3c537fc6-d403-11ec-b3bf-00155d8545fd,target_exposed_sensitive_interfaces,ktech-e0117c66-e93b-4f5d-b484-1310c38f2fa1,Exposed sensitive interfaces
+kobs_state-3c538029-d403-11ec-9ace-00155d8545fd,target_exposed_sensitive_interfaces,ktech-e0117c66-e93b-4f5d-b484-1310c38f2fa1,Exposed sensitive interfaces
+kobs_state-3c53806a-d403-11ec-b055-00155d8545fd,target_exposed_sensitive_interfaces,ktech-e0117c66-e93b-4f5d-b484-1310c38f2fa1,Exposed sensitive interfaces
+kobs_state-3c5380a3-d403-11ec-ad2e-00155d8545fd,target_exposed_sensitive_interfaces,ktech-e0117c66-e93b-4f5d-b484-1310c38f2fa1,Exposed sensitive interfaces
+kobs_state-3c5380db-d403-11ec-a903-00155d8545fd,target_exposed_sensitive_interfaces,ktech-e0117c66-e93b-4f5d-b484-1310c38f2fa1,Exposed sensitive interfaces
+kobs_state-3c538112-d403-11ec-9ebb-00155d8545fd,target_exposed_sensitive_interfaces,ktech-e0117c66-e93b-4f5d-b484-1310c38f2fa1,Exposed sensitive interfaces
+kobs_state-3c53814a-d403-11ec-bc27-00155d8545fd,target_exposed_sensitive_interfaces,ktech-e0117c66-e93b-4f5d-b484-1310c38f2fa1,Exposed sensitive interfaces
+kobs_state-3c538181-d403-11ec-96e0-00155d8545fd,target_exposed_sensitive_interfaces,ktech-e0117c66-e93b-4f5d-b484-1310c38f2fa1,Exposed sensitive interfaces
+kobs_state-3c5381b7-d403-11ec-b24e-00155d8545fd,target_exposed_sensitive_interfaces,ktech-e0117c66-e93b-4f5d-b484-1310c38f2fa1,Exposed sensitive interfaces
+kobs_state-3c5381ed-d403-11ec-a2b0-00155d8545fd,target_exposed_sensitive_interfaces,ktech-e0117c66-e93b-4f5d-b484-1310c38f2fa1,Exposed sensitive interfaces
+kobs_state-3c539943-d403-11ec-91c6-00155d8545fd,target_new_container,ktech-cce83cd7-20ee-4a03-b731-51df2c399b4c,New container
+kobs_state-3c53999d-d403-11ec-9b6e-00155d8545fd,target_new_container,ktech-cce83cd7-20ee-4a03-b731-51df2c399b4c,New container
+kobs_state-3c5399da-d403-11ec-9c71-00155d8545fd,target_new_container,ktech-cce83cd7-20ee-4a03-b731-51df2c399b4c,New container
+kobs_state-3c539a13-d403-11ec-bf25-00155d8545fd,target_new_container,ktech-cce83cd7-20ee-4a03-b731-51df2c399b4c,New container
+kobs_state-3c539a4b-d403-11ec-af26-00155d8545fd,target_new_container,ktech-cce83cd7-20ee-4a03-b731-51df2c399b4c,New container
+kobs_state-3c539a81-d403-11ec-9865-00155d8545fd,target_new_container,ktech-cce83cd7-20ee-4a03-b731-51df2c399b4c,New container
+kobs_state-3c539ab8-d403-11ec-a2e9-00155d8545fd,target_new_container,ktech-cce83cd7-20ee-4a03-b731-51df2c399b4c,New container
+kobs_state-3c539af0-d403-11ec-94f3-00155d8545fd,target_new_container,ktech-cce83cd7-20ee-4a03-b731-51df2c399b4c,New container
+kobs_state-3c539b26-d403-11ec-a5f7-00155d8545fd,target_new_container,ktech-cce83cd7-20ee-4a03-b731-51df2c399b4c,New container
+kobs_state-3c539b69-d403-11ec-92a0-00155d8545fd,target_new_container,ktech-cce83cd7-20ee-4a03-b731-51df2c399b4c,New container
+kobs_state-3c53b001-d403-11ec-8bb7-00155d8545fd,target_sidecar_injection,ktech-4e32dea8-742d-474f-bf43-bbfce4656239,Sidecar injection
+kobs_state-3c53b06f-d403-11ec-a67a-00155d8545fd,target_sidecar_injection,ktech-4e32dea8-742d-474f-bf43-bbfce4656239,Sidecar injection
+kobs_state-3c53b0b3-d403-11ec-b73d-00155d8545fd,target_sidecar_injection,ktech-4e32dea8-742d-474f-bf43-bbfce4656239,Sidecar injection
+kobs_state-3c53b0ee-d403-11ec-a65f-00155d8545fd,target_sidecar_injection,ktech-4e32dea8-742d-474f-bf43-bbfce4656239,Sidecar injection
+kobs_state-3c53b126-d403-11ec-9b51-00155d8545fd,target_sidecar_injection,ktech-4e32dea8-742d-474f-bf43-bbfce4656239,Sidecar injection
+kobs_state-3c53b15e-d403-11ec-b1ec-00155d8545fd,target_sidecar_injection,ktech-4e32dea8-742d-474f-bf43-bbfce4656239,Sidecar injection
+kobs_state-3c53b196-d403-11ec-aa9a-00155d8545fd,target_sidecar_injection,ktech-4e32dea8-742d-474f-bf43-bbfce4656239,Sidecar injection
+kobs_state-3c53b1cd-d403-11ec-81f0-00155d8545fd,target_sidecar_injection,ktech-4e32dea8-742d-474f-bf43-bbfce4656239,Sidecar injection
+kobs_state-3c53b203-d403-11ec-97b2-00155d8545fd,target_sidecar_injection,ktech-4e32dea8-742d-474f-bf43-bbfce4656239,Sidecar injection
+kobs_state-3c53b23a-d403-11ec-93ea-00155d8545fd,target_sidecar_injection,ktech-4e32dea8-742d-474f-bf43-bbfce4656239,Sidecar injection
+kobs_state-3c53fcfd-d403-11ec-b246-00155d8545fd,target_data_destruction,ktech-686b23f5-bcce-4c68-a6e5-fcf31a7f6ed8,Data destruction
+kobs_state-3c53fe32-d403-11ec-980a-00155d8545fd,target_data_destruction,ktech-686b23f5-bcce-4c68-a6e5-fcf31a7f6ed8,Data destruction
+kobs_state-3c53fe77-d403-11ec-bd75-00155d8545fd,target_data_destruction,ktech-686b23f5-bcce-4c68-a6e5-fcf31a7f6ed8,Data destruction
+kobs_state-3c53feb3-d403-11ec-a61a-00155d8545fd,target_data_destruction,ktech-686b23f5-bcce-4c68-a6e5-fcf31a7f6ed8,Data destruction
+kobs_state-3c53feef-d403-11ec-b4f9-00155d8545fd,target_data_destruction,ktech-686b23f5-bcce-4c68-a6e5-fcf31a7f6ed8,Data destruction
+kobs_state-3c53ff28-d403-11ec-bb7e-00155d8545fd,target_data_destruction,ktech-686b23f5-bcce-4c68-a6e5-fcf31a7f6ed8,Data destruction
+kobs_state-3c53ff63-d403-11ec-a5d4-00155d8545fd,target_data_destruction,ktech-686b23f5-bcce-4c68-a6e5-fcf31a7f6ed8,Data destruction
+kobs_state-3c53ff9d-d403-11ec-810c-00155d8545fd,target_data_destruction,ktech-686b23f5-bcce-4c68-a6e5-fcf31a7f6ed8,Data destruction
+kobs_state-3c53ffd7-d403-11ec-b550-00155d8545fd,target_data_destruction,ktech-686b23f5-bcce-4c68-a6e5-fcf31a7f6ed8,Data destruction
+kobs_state-3c5400be-d403-11ec-bd8a-00155d8545fd,target_data_destruction,ktech-686b23f5-bcce-4c68-a6e5-fcf31a7f6ed8,Data destruction
+kobs_state-3c5419da-d403-11ec-abf4-00155d8545fd,target_access_kubelet_api,ktech-e9238385-bcec-4866-9493-2fb6b9129c04,Access Kubelet API
+kobs_state-3c541a37-d403-11ec-94f9-00155d8545fd,target_access_kubelet_api,ktech-e9238385-bcec-4866-9493-2fb6b9129c04,Access Kubelet API
+kobs_state-3c541a75-d403-11ec-ac8d-00155d8545fd,target_access_kubelet_api,ktech-e9238385-bcec-4866-9493-2fb6b9129c04,Access Kubelet API
+kobs_state-3c541aad-d403-11ec-bc76-00155d8545fd,target_access_kubelet_api,ktech-e9238385-bcec-4866-9493-2fb6b9129c04,Access Kubelet API
+kobs_state-3c541ae5-d403-11ec-884e-00155d8545fd,target_access_kubelet_api,ktech-e9238385-bcec-4866-9493-2fb6b9129c04,Access Kubelet API
+kobs_state-3c541b1c-d403-11ec-a4cb-00155d8545fd,target_access_kubelet_api,ktech-e9238385-bcec-4866-9493-2fb6b9129c04,Access Kubelet API
+kobs_state-3c541b53-d403-11ec-a996-00155d8545fd,target_access_kubelet_api,ktech-e9238385-bcec-4866-9493-2fb6b9129c04,Access Kubelet API
+kobs_state-3c541b89-d403-11ec-9622-00155d8545fd,target_access_kubelet_api,ktech-e9238385-bcec-4866-9493-2fb6b9129c04,Access Kubelet API
+kobs_state-3c541bbd-d403-11ec-a6ca-00155d8545fd,target_access_kubelet_api,ktech-e9238385-bcec-4866-9493-2fb6b9129c04,Access Kubelet API
+kobs_state-3c541bf2-d403-11ec-b7dc-00155d8545fd,target_access_kubelet_api,ktech-e9238385-bcec-4866-9493-2fb6b9129c04,Access Kubelet API
+kobs_state-3c543265-d403-11ec-970d-00155d8545fd,target_clear_container_logs,ktech-0c3de308-f0f5-44d8-a4a2-dd3d74452216,Clear container logs
+kobs_state-3c5432c4-d403-11ec-b9b5-00155d8545fd,target_clear_container_logs,ktech-0c3de308-f0f5-44d8-a4a2-dd3d74452216,Clear container logs
+kobs_state-3c543305-d403-11ec-be9d-00155d8545fd,target_clear_container_logs,ktech-0c3de308-f0f5-44d8-a4a2-dd3d74452216,Clear container logs
+kobs_state-3c543340-d403-11ec-bb06-00155d8545fd,target_clear_container_logs,ktech-0c3de308-f0f5-44d8-a4a2-dd3d74452216,Clear container logs
+kobs_state-3c543378-d403-11ec-800b-00155d8545fd,target_clear_container_logs,ktech-0c3de308-f0f5-44d8-a4a2-dd3d74452216,Clear container logs
+kobs_state-3c5433b3-d403-11ec-aad3-00155d8545fd,target_clear_container_logs,ktech-0c3de308-f0f5-44d8-a4a2-dd3d74452216,Clear container logs
+kobs_state-3c5433ed-d403-11ec-9823-00155d8545fd,target_clear_container_logs,ktech-0c3de308-f0f5-44d8-a4a2-dd3d74452216,Clear container logs
+kobs_state-3c543424-d403-11ec-8d38-00155d8545fd,target_clear_container_logs,ktech-0c3de308-f0f5-44d8-a4a2-dd3d74452216,Clear container logs
+kobs_state-3c54345b-d403-11ec-b891-00155d8545fd,target_clear_container_logs,ktech-0c3de308-f0f5-44d8-a4a2-dd3d74452216,Clear container logs
+kobs_state-3c543492-d403-11ec-a2f1-00155d8545fd,target_clear_container_logs,ktech-0c3de308-f0f5-44d8-a4a2-dd3d74452216,Clear container logs
+kobs_state-3c5449bd-d403-11ec-a2e9-00155d8545fd,target_using_cloud_credentials,ktech-6f14fa07-7cbf-4473-9ab3-d47864b7ed98,Using cloud credentials
+kobs_state-3c544a19-d403-11ec-848b-00155d8545fd,target_using_cloud_credentials,ktech-6f14fa07-7cbf-4473-9ab3-d47864b7ed98,Using cloud credentials
+kobs_state-3c544a57-d403-11ec-aee8-00155d8545fd,target_using_cloud_credentials,ktech-6f14fa07-7cbf-4473-9ab3-d47864b7ed98,Using cloud credentials
+kobs_state-3c544a8f-d403-11ec-9b62-00155d8545fd,target_using_cloud_credentials,ktech-6f14fa07-7cbf-4473-9ab3-d47864b7ed98,Using cloud credentials
+kobs_state-3c544ac7-d403-11ec-9978-00155d8545fd,target_using_cloud_credentials,ktech-6f14fa07-7cbf-4473-9ab3-d47864b7ed98,Using cloud credentials
+kobs_state-3c544afd-d403-11ec-b166-00155d8545fd,target_using_cloud_credentials,ktech-6f14fa07-7cbf-4473-9ab3-d47864b7ed98,Using cloud credentials
+kobs_state-3c544b34-d403-11ec-8be1-00155d8545fd,target_using_cloud_credentials,ktech-6f14fa07-7cbf-4473-9ab3-d47864b7ed98,Using cloud credentials
+kobs_state-3c544b69-d403-11ec-b878-00155d8545fd,target_using_cloud_credentials,ktech-6f14fa07-7cbf-4473-9ab3-d47864b7ed98,Using cloud credentials
+kobs_state-3c544b9f-d403-11ec-9248-00155d8545fd,target_using_cloud_credentials,ktech-6f14fa07-7cbf-4473-9ab3-d47864b7ed98,Using cloud credentials
+kobs_state-3c544bd4-d403-11ec-92fe-00155d8545fd,target_using_cloud_credentials,ktech-6f14fa07-7cbf-4473-9ab3-d47864b7ed98,Using cloud credentials
+kobs_state-3c5461b8-d403-11ec-8061-00155d8545fd,target_writable_hostpath_mount,ktech-e642da19-c9bb-47eb-85f9-3400d5376c57,Writable hostPath mount
+kobs_state-3c546213-d403-11ec-80c5-00155d8545fd,target_writable_hostpath_mount,ktech-e642da19-c9bb-47eb-85f9-3400d5376c57,Writable hostPath mount
+kobs_state-3c546252-d403-11ec-b541-00155d8545fd,target_writable_hostpath_mount,ktech-e642da19-c9bb-47eb-85f9-3400d5376c57,Writable hostPath mount
+kobs_state-3c54628a-d403-11ec-93a0-00155d8545fd,target_writable_hostpath_mount,ktech-e642da19-c9bb-47eb-85f9-3400d5376c57,Writable hostPath mount
+kobs_state-3c5462c1-d403-11ec-9543-00155d8545fd,target_writable_hostpath_mount,ktech-e642da19-c9bb-47eb-85f9-3400d5376c57,Writable hostPath mount
+kobs_state-3c5462f7-d403-11ec-a9ac-00155d8545fd,target_writable_hostpath_mount,ktech-e642da19-c9bb-47eb-85f9-3400d5376c57,Writable hostPath mount
+kobs_state-3c54632e-d403-11ec-98f2-00155d8545fd,target_writable_hostpath_mount,ktech-e642da19-c9bb-47eb-85f9-3400d5376c57,Writable hostPath mount
+kobs_state-3c546365-d403-11ec-9672-00155d8545fd,target_writable_hostpath_mount,ktech-e642da19-c9bb-47eb-85f9-3400d5376c57,Writable hostPath mount
+kobs_state-3c546399-d403-11ec-95f0-00155d8545fd,target_writable_hostpath_mount,ktech-e642da19-c9bb-47eb-85f9-3400d5376c57,Writable hostPath mount
+kobs_state-3c5463cf-d403-11ec-b279-00155d8545fd,target_writable_hostpath_mount,ktech-e642da19-c9bb-47eb-85f9-3400d5376c57,Writable hostPath mount
+kobs_state-3c54782e-d403-11ec-86dc-00155d8545fd,target_resource_hijacking,ktech-4aa2cc22-e6a0-4699-9d60-15650f4dc74f,Resource hijacking
+kobs_state-3c5478a7-d403-11ec-8ddf-00155d8545fd,target_resource_hijacking,ktech-4aa2cc22-e6a0-4699-9d60-15650f4dc74f,Resource hijacking
+kobs_state-3c547985-d403-11ec-aeca-00155d8545fd,target_resource_hijacking,ktech-4aa2cc22-e6a0-4699-9d60-15650f4dc74f,Resource hijacking
+kobs_state-3c547a08-d403-11ec-a145-00155d8545fd,target_resource_hijacking,ktech-4aa2cc22-e6a0-4699-9d60-15650f4dc74f,Resource hijacking
+kobs_state-3c547a53-d403-11ec-99ec-00155d8545fd,target_resource_hijacking,ktech-4aa2cc22-e6a0-4699-9d60-15650f4dc74f,Resource hijacking
+kobs_state-3c547aa7-d403-11ec-997b-00155d8545fd,target_resource_hijacking,ktech-4aa2cc22-e6a0-4699-9d60-15650f4dc74f,Resource hijacking
+kobs_state-3c547ae5-d403-11ec-bc91-00155d8545fd,target_resource_hijacking,ktech-4aa2cc22-e6a0-4699-9d60-15650f4dc74f,Resource hijacking
+kobs_state-3c547b1f-d403-11ec-989a-00155d8545fd,target_resource_hijacking,ktech-4aa2cc22-e6a0-4699-9d60-15650f4dc74f,Resource hijacking
+kobs_state-3c547b5a-d403-11ec-bfec-00155d8545fd,target_resource_hijacking,ktech-4aa2cc22-e6a0-4699-9d60-15650f4dc74f,Resource hijacking
+kobs_state-3c547bd8-d403-11ec-a916-00155d8545fd,target_resource_hijacking,ktech-4aa2cc22-e6a0-4699-9d60-15650f4dc74f,Resource hijacking
+kobs_state-3c5490ed-d403-11ec-a984-00155d8545fd,target_kubernetes_cronjob,ktech-4a67ed7a-7387-4ff4-a610-0060a02d2eb8,Kubernetes CronJob
+kobs_state-3c54914c-d403-11ec-b6d8-00155d8545fd,target_kubernetes_cronjob,ktech-4a67ed7a-7387-4ff4-a610-0060a02d2eb8,Kubernetes CronJob
+kobs_state-3c549188-d403-11ec-bf23-00155d8545fd,target_kubernetes_cronjob,ktech-4a67ed7a-7387-4ff4-a610-0060a02d2eb8,Kubernetes CronJob
+kobs_state-3c5491c0-d403-11ec-a228-00155d8545fd,target_kubernetes_cronjob,ktech-4a67ed7a-7387-4ff4-a610-0060a02d2eb8,Kubernetes CronJob
+kobs_state-3c5491f6-d403-11ec-92b4-00155d8545fd,target_kubernetes_cronjob,ktech-4a67ed7a-7387-4ff4-a610-0060a02d2eb8,Kubernetes CronJob
+kobs_state-3c54922c-d403-11ec-b97d-00155d8545fd,target_kubernetes_cronjob,ktech-4a67ed7a-7387-4ff4-a610-0060a02d2eb8,Kubernetes CronJob
+kobs_state-3c549262-d403-11ec-9e26-00155d8545fd,target_kubernetes_cronjob,ktech-4a67ed7a-7387-4ff4-a610-0060a02d2eb8,Kubernetes CronJob
+kobs_state-3c549297-d403-11ec-8bfc-00155d8545fd,target_kubernetes_cronjob,ktech-4a67ed7a-7387-4ff4-a610-0060a02d2eb8,Kubernetes CronJob
+kobs_state-3c5492cc-d403-11ec-aa47-00155d8545fd,target_kubernetes_cronjob,ktech-4a67ed7a-7387-4ff4-a610-0060a02d2eb8,Kubernetes CronJob
+kobs_state-3c5493d6-d403-11ec-bf34-00155d8545fd,target_kubernetes_cronjob,ktech-4a67ed7a-7387-4ff4-a610-0060a02d2eb8,Kubernetes CronJob
+kobs_state-3c54aa0a-d403-11ec-b00d-00155d8545fd,target_access_container_service_account,ktech-336f8b2c-71f1-47f6-b1c7-6e2b7b2d122d,Access container service account
+kobs_state-3c54aa75-d403-11ec-9e07-00155d8545fd,target_access_container_service_account,ktech-336f8b2c-71f1-47f6-b1c7-6e2b7b2d122d,Access container service account
+kobs_state-3c54aac1-d403-11ec-a7b7-00155d8545fd,target_access_container_service_account,ktech-336f8b2c-71f1-47f6-b1c7-6e2b7b2d122d,Access container service account
+kobs_state-3c54ab09-d403-11ec-a1a4-00155d8545fd,target_access_container_service_account,ktech-336f8b2c-71f1-47f6-b1c7-6e2b7b2d122d,Access container service account
+kobs_state-3c54ab4b-d403-11ec-9dc0-00155d8545fd,target_access_container_service_account,ktech-336f8b2c-71f1-47f6-b1c7-6e2b7b2d122d,Access container service account
+kobs_state-3c54ab8f-d403-11ec-ba49-00155d8545fd,target_access_container_service_account,ktech-336f8b2c-71f1-47f6-b1c7-6e2b7b2d122d,Access container service account
+kobs_state-3c54abd0-d403-11ec-9611-00155d8545fd,target_access_container_service_account,ktech-336f8b2c-71f1-47f6-b1c7-6e2b7b2d122d,Access container service account
+kobs_state-3c54ac14-d403-11ec-82b3-00155d8545fd,target_access_container_service_account,ktech-336f8b2c-71f1-47f6-b1c7-6e2b7b2d122d,Access container service account
+kobs_state-3c54ac57-d403-11ec-b918-00155d8545fd,target_access_container_service_account,ktech-336f8b2c-71f1-47f6-b1c7-6e2b7b2d122d,Access container service account
+kobs_state-3c54ac9a-d403-11ec-89c1-00155d8545fd,target_access_container_service_account,ktech-336f8b2c-71f1-47f6-b1c7-6e2b7b2d122d,Access container service account
+kobs_state-3c54c1d5-d403-11ec-95ba-00155d8545fd,target_malicious_admission_controller,ktech-5a728e27-6359-433e-b673-ab863b561427,Malicious admission controller
+kobs_state-3c54c22b-d403-11ec-a63b-00155d8545fd,target_malicious_admission_controller,ktech-5a728e27-6359-433e-b673-ab863b561427,Malicious admission controller
+kobs_state-3c54c267-d403-11ec-9304-00155d8545fd,target_malicious_admission_controller,ktech-5a728e27-6359-433e-b673-ab863b561427,Malicious admission controller
+kobs_state-3c54c29f-d403-11ec-a6f9-00155d8545fd,target_malicious_admission_controller,ktech-5a728e27-6359-433e-b673-ab863b561427,Malicious admission controller
+kobs_state-3c54c2d6-d403-11ec-90ec-00155d8545fd,target_malicious_admission_controller,ktech-5a728e27-6359-433e-b673-ab863b561427,Malicious admission controller
+kobs_state-3c54c30b-d403-11ec-a1d3-00155d8545fd,target_malicious_admission_controller,ktech-5a728e27-6359-433e-b673-ab863b561427,Malicious admission controller
+kobs_state-3c54c342-d403-11ec-a3c4-00155d8545fd,target_malicious_admission_controller,ktech-5a728e27-6359-433e-b673-ab863b561427,Malicious admission controller
+kobs_state-3c54c378-d403-11ec-9d8d-00155d8545fd,target_malicious_admission_controller,ktech-5a728e27-6359-433e-b673-ab863b561427,Malicious admission controller
+kobs_state-3c54c3ad-d403-11ec-9f43-00155d8545fd,target_malicious_admission_controller,ktech-5a728e27-6359-433e-b673-ab863b561427,Malicious admission controller
+kobs_state-3c54c3e3-d403-11ec-8739-00155d8545fd,target_malicious_admission_controller,ktech-5a728e27-6359-433e-b673-ab863b561427,Malicious admission controller
+kobs_state-3c54db10-d403-11ec-b2e5-00155d8545fd,target_list_kubernetes_secrets,ktech-5e8ee7c7-27a0-4cda-ba17-6cd931afc43c,List Kubernetes secrets
+kobs_state-3c54db68-d403-11ec-8e6b-00155d8545fd,target_list_kubernetes_secrets,ktech-5e8ee7c7-27a0-4cda-ba17-6cd931afc43c,List Kubernetes secrets
+kobs_state-3c54dba6-d403-11ec-9548-00155d8545fd,target_list_kubernetes_secrets,ktech-5e8ee7c7-27a0-4cda-ba17-6cd931afc43c,List Kubernetes secrets
+kobs_state-3c54dbdd-d403-11ec-a771-00155d8545fd,target_list_kubernetes_secrets,ktech-5e8ee7c7-27a0-4cda-ba17-6cd931afc43c,List Kubernetes secrets
+kobs_state-3c54dc13-d403-11ec-bb05-00155d8545fd,target_list_kubernetes_secrets,ktech-5e8ee7c7-27a0-4cda-ba17-6cd931afc43c,List Kubernetes secrets
+kobs_state-3c54dc62-d403-11ec-932f-00155d8545fd,target_list_kubernetes_secrets,ktech-5e8ee7c7-27a0-4cda-ba17-6cd931afc43c,List Kubernetes secrets
+kobs_state-3c54dc9d-d403-11ec-a171-00155d8545fd,target_list_kubernetes_secrets,ktech-5e8ee7c7-27a0-4cda-ba17-6cd931afc43c,List Kubernetes secrets
+kobs_state-3c54dcd4-d403-11ec-bb23-00155d8545fd,target_list_kubernetes_secrets,ktech-5e8ee7c7-27a0-4cda-ba17-6cd931afc43c,List Kubernetes secrets
+kobs_state-3c54dd0a-d403-11ec-b90c-00155d8545fd,target_list_kubernetes_secrets,ktech-5e8ee7c7-27a0-4cda-ba17-6cd931afc43c,List Kubernetes secrets
+kobs_state-3c54dd40-d403-11ec-a68f-00155d8545fd,target_list_kubernetes_secrets,ktech-5e8ee7c7-27a0-4cda-ba17-6cd931afc43c,List Kubernetes secrets
+kobs_state-3c54f347-d403-11ec-a359-00155d8545fd,target_writable_volume_mounts_on_the_host,ktech-d4286f4c-e286-48ca-a2d5-8f5089fff410,Writable volume mounts on the host
+kobs_state-3c54f3a2-d403-11ec-b7dd-00155d8545fd,target_writable_volume_mounts_on_the_host,ktech-d4286f4c-e286-48ca-a2d5-8f5089fff410,Writable volume mounts on the host
+kobs_state-3c54f3e2-d403-11ec-9b72-00155d8545fd,target_writable_volume_mounts_on_the_host,ktech-d4286f4c-e286-48ca-a2d5-8f5089fff410,Writable volume mounts on the host
+kobs_state-3c54f41b-d403-11ec-9ece-00155d8545fd,target_writable_volume_mounts_on_the_host,ktech-d4286f4c-e286-48ca-a2d5-8f5089fff410,Writable volume mounts on the host
+kobs_state-3c54f454-d403-11ec-b331-00155d8545fd,target_writable_volume_mounts_on_the_host,ktech-d4286f4c-e286-48ca-a2d5-8f5089fff410,Writable volume mounts on the host
+kobs_state-3c54f48b-d403-11ec-bc22-00155d8545fd,target_writable_volume_mounts_on_the_host,ktech-d4286f4c-e286-48ca-a2d5-8f5089fff410,Writable volume mounts on the host
+kobs_state-3c54f4c3-d403-11ec-ad03-00155d8545fd,target_writable_volume_mounts_on_the_host,ktech-d4286f4c-e286-48ca-a2d5-8f5089fff410,Writable volume mounts on the host
+kobs_state-3c54f50e-d403-11ec-b58e-00155d8545fd,target_writable_volume_mounts_on_the_host,ktech-d4286f4c-e286-48ca-a2d5-8f5089fff410,Writable volume mounts on the host
+kobs_state-3c54f551-d403-11ec-8fdc-00155d8545fd,target_writable_volume_mounts_on_the_host,ktech-d4286f4c-e286-48ca-a2d5-8f5089fff410,Writable volume mounts on the host
+kobs_state-3c54f58a-d403-11ec-afe5-00155d8545fd,target_writable_volume_mounts_on_the_host,ktech-d4286f4c-e286-48ca-a2d5-8f5089fff410,Writable volume mounts on the host
+kobs_state-3c550dc6-d403-11ec-be74-00155d8545fd,target_coredns_poisoning,ktech-8c302563-5294-498c-95a4-b96daf9ed5e1,CoreDNS poisoning
+kobs_state-3c550e22-d403-11ec-af4a-00155d8545fd,target_coredns_poisoning,ktech-8c302563-5294-498c-95a4-b96daf9ed5e1,CoreDNS poisoning
+kobs_state-3c550e62-d403-11ec-8a64-00155d8545fd,target_coredns_poisoning,ktech-8c302563-5294-498c-95a4-b96daf9ed5e1,CoreDNS poisoning
+kobs_state-3c550e9d-d403-11ec-9862-00155d8545fd,target_coredns_poisoning,ktech-8c302563-5294-498c-95a4-b96daf9ed5e1,CoreDNS poisoning
+kobs_state-3c550ed6-d403-11ec-af04-00155d8545fd,target_coredns_poisoning,ktech-8c302563-5294-498c-95a4-b96daf9ed5e1,CoreDNS poisoning
+kobs_state-3c550f0d-d403-11ec-baef-00155d8545fd,target_coredns_poisoning,ktech-8c302563-5294-498c-95a4-b96daf9ed5e1,CoreDNS poisoning
+kobs_state-3c550f55-d403-11ec-a4fa-00155d8545fd,target_coredns_poisoning,ktech-8c302563-5294-498c-95a4-b96daf9ed5e1,CoreDNS poisoning
+kobs_state-3c550f90-d403-11ec-89c0-00155d8545fd,target_coredns_poisoning,ktech-8c302563-5294-498c-95a4-b96daf9ed5e1,CoreDNS poisoning
+kobs_state-3c550fc8-d403-11ec-b916-00155d8545fd,target_coredns_poisoning,ktech-8c302563-5294-498c-95a4-b96daf9ed5e1,CoreDNS poisoning
+kobs_state-3c551001-d403-11ec-ad01-00155d8545fd,target_coredns_poisoning,ktech-8c302563-5294-498c-95a4-b96daf9ed5e1,CoreDNS poisoning
+kobs_state-3c5526f4-d403-11ec-b236-00155d8545fd,target_access_cloud_resources,ktech-2f39e379-fb3b-4776-bcf8-5d7044c0bef7,Access cloud resources
+kobs_state-3c552751-d403-11ec-80d0-00155d8545fd,target_access_cloud_resources,ktech-2f39e379-fb3b-4776-bcf8-5d7044c0bef7,Access cloud resources
+kobs_state-3c552791-d403-11ec-9550-00155d8545fd,target_access_cloud_resources,ktech-2f39e379-fb3b-4776-bcf8-5d7044c0bef7,Access cloud resources
+kobs_state-3c5527ca-d403-11ec-a362-00155d8545fd,target_access_cloud_resources,ktech-2f39e379-fb3b-4776-bcf8-5d7044c0bef7,Access cloud resources
+kobs_state-3c552801-d403-11ec-9a79-00155d8545fd,target_access_cloud_resources,ktech-2f39e379-fb3b-4776-bcf8-5d7044c0bef7,Access cloud resources
+kobs_state-3c552838-d403-11ec-a019-00155d8545fd,target_access_cloud_resources,ktech-2f39e379-fb3b-4776-bcf8-5d7044c0bef7,Access cloud resources
+kobs_state-3c552871-d403-11ec-a172-00155d8545fd,target_access_cloud_resources,ktech-2f39e379-fb3b-4776-bcf8-5d7044c0bef7,Access cloud resources
+kobs_state-3c5528a7-d403-11ec-bfca-00155d8545fd,target_access_cloud_resources,ktech-2f39e379-fb3b-4776-bcf8-5d7044c0bef7,Access cloud resources
+kobs_state-3c5528dc-d403-11ec-92e0-00155d8545fd,target_access_cloud_resources,ktech-2f39e379-fb3b-4776-bcf8-5d7044c0bef7,Access cloud resources
+kobs_state-3c552912-d403-11ec-bd16-00155d8545fd,target_access_cloud_resources,ktech-2f39e379-fb3b-4776-bcf8-5d7044c0bef7,Access cloud resources
+kobs_state-3c553fea-d403-11ec-bad5-00155d8545fd,target_exec_into_container,ktech-5163e382-6b2b-4cc8-bf47-22a2e1e8e346,Exec into container
+kobs_state-3c554047-d403-11ec-acb7-00155d8545fd,target_exec_into_container,ktech-5163e382-6b2b-4cc8-bf47-22a2e1e8e346,Exec into container
+kobs_state-3c554085-d403-11ec-b49b-00155d8545fd,target_exec_into_container,ktech-5163e382-6b2b-4cc8-bf47-22a2e1e8e346,Exec into container
+kobs_state-3c5540be-d403-11ec-891a-00155d8545fd,target_exec_into_container,ktech-5163e382-6b2b-4cc8-bf47-22a2e1e8e346,Exec into container
+kobs_state-3c5540f6-d403-11ec-976a-00155d8545fd,target_exec_into_container,ktech-5163e382-6b2b-4cc8-bf47-22a2e1e8e346,Exec into container
+kobs_state-3c55412d-d403-11ec-a910-00155d8545fd,target_exec_into_container,ktech-5163e382-6b2b-4cc8-bf47-22a2e1e8e346,Exec into container
+kobs_state-3c554175-d403-11ec-961d-00155d8545fd,target_exec_into_container,ktech-5163e382-6b2b-4cc8-bf47-22a2e1e8e346,Exec into container
+kobs_state-3c5541ae-d403-11ec-af76-00155d8545fd,target_exec_into_container,ktech-5163e382-6b2b-4cc8-bf47-22a2e1e8e346,Exec into container
+kobs_state-3c5541e5-d403-11ec-a1e8-00155d8545fd,target_exec_into_container,ktech-5163e382-6b2b-4cc8-bf47-22a2e1e8e346,Exec into container
+kobs_state-3c55421c-d403-11ec-bff8-00155d8545fd,target_exec_into_container,ktech-5163e382-6b2b-4cc8-bf47-22a2e1e8e346,Exec into container
+kobs_state-3c55593e-d403-11ec-aa7a-00155d8545fd,target_delete_kubernetes_events,ktech-24660362-fa61-411c-9f82-8f6e107b1b2c,Delete Kubernetes events
+kobs_state-3c555996-d403-11ec-a5d6-00155d8545fd,target_delete_kubernetes_events,ktech-24660362-fa61-411c-9f82-8f6e107b1b2c,Delete Kubernetes events
+kobs_state-3c5559d4-d403-11ec-b770-00155d8545fd,target_delete_kubernetes_events,ktech-24660362-fa61-411c-9f82-8f6e107b1b2c,Delete Kubernetes events
+kobs_state-3c555a0d-d403-11ec-9521-00155d8545fd,target_delete_kubernetes_events,ktech-24660362-fa61-411c-9f82-8f6e107b1b2c,Delete Kubernetes events
+kobs_state-3c555a45-d403-11ec-8371-00155d8545fd,target_delete_kubernetes_events,ktech-24660362-fa61-411c-9f82-8f6e107b1b2c,Delete Kubernetes events
+kobs_state-3c555a7b-d403-11ec-96d9-00155d8545fd,target_delete_kubernetes_events,ktech-24660362-fa61-411c-9f82-8f6e107b1b2c,Delete Kubernetes events
+kobs_state-3c555ab2-d403-11ec-b93f-00155d8545fd,target_delete_kubernetes_events,ktech-24660362-fa61-411c-9f82-8f6e107b1b2c,Delete Kubernetes events
+kobs_state-3c555ae7-d403-11ec-8e37-00155d8545fd,target_delete_kubernetes_events,ktech-24660362-fa61-411c-9f82-8f6e107b1b2c,Delete Kubernetes events
+kobs_state-3c555b1c-d403-11ec-9907-00155d8545fd,target_delete_kubernetes_events,ktech-24660362-fa61-411c-9f82-8f6e107b1b2c,Delete Kubernetes events
+kobs_state-3c555b51-d403-11ec-98eb-00155d8545fd,target_delete_kubernetes_events,ktech-24660362-fa61-411c-9f82-8f6e107b1b2c,Delete Kubernetes events
+kobs_state-3c557170-d403-11ec-8da3-00155d8545fd,target_ssh_server_running_inside_container,ktech-d7f52f90-7169-41fa-97e3-31f1488aa7da,SSH server running inside container
+kobs_state-3c5571cb-d403-11ec-8cb3-00155d8545fd,target_ssh_server_running_inside_container,ktech-d7f52f90-7169-41fa-97e3-31f1488aa7da,SSH server running inside container
+kobs_state-3c55720d-d403-11ec-8d1a-00155d8545fd,target_ssh_server_running_inside_container,ktech-d7f52f90-7169-41fa-97e3-31f1488aa7da,SSH server running inside container
+kobs_state-3c557248-d403-11ec-b2b2-00155d8545fd,target_ssh_server_running_inside_container,ktech-d7f52f90-7169-41fa-97e3-31f1488aa7da,SSH server running inside container
+kobs_state-3c557282-d403-11ec-a0d0-00155d8545fd,target_ssh_server_running_inside_container,ktech-d7f52f90-7169-41fa-97e3-31f1488aa7da,SSH server running inside container
+kobs_state-3c5572bb-d403-11ec-ace9-00155d8545fd,target_ssh_server_running_inside_container,ktech-d7f52f90-7169-41fa-97e3-31f1488aa7da,SSH server running inside container
+kobs_state-3c557305-d403-11ec-a5b8-00155d8545fd,target_ssh_server_running_inside_container,ktech-d7f52f90-7169-41fa-97e3-31f1488aa7da,SSH server running inside container
+kobs_state-3c557341-d403-11ec-a25a-00155d8545fd,target_ssh_server_running_inside_container,ktech-d7f52f90-7169-41fa-97e3-31f1488aa7da,SSH server running inside container
+kobs_state-3c557379-d403-11ec-820c-00155d8545fd,target_ssh_server_running_inside_container,ktech-d7f52f90-7169-41fa-97e3-31f1488aa7da,SSH server running inside container
+kobs_state-3c5573b1-d403-11ec-84fe-00155d8545fd,target_ssh_server_running_inside_container,ktech-d7f52f90-7169-41fa-97e3-31f1488aa7da,SSH server running inside container
+kobs_state-3c558850-d403-11ec-ad0a-00155d8545fd,target_container_service_account,ktech-9300e8ea-52e6-4368-82a2-42f8afd594e2,Container service account
+kobs_state-3c5588aa-d403-11ec-bc60-00155d8545fd,target_container_service_account,ktech-9300e8ea-52e6-4368-82a2-42f8afd594e2,Container service account
+kobs_state-3c5588e8-d403-11ec-96ca-00155d8545fd,target_container_service_account,ktech-9300e8ea-52e6-4368-82a2-42f8afd594e2,Container service account
+kobs_state-3c558920-d403-11ec-a7a5-00155d8545fd,target_container_service_account,ktech-9300e8ea-52e6-4368-82a2-42f8afd594e2,Container service account
+kobs_state-3c558956-d403-11ec-b243-00155d8545fd,target_container_service_account,ktech-9300e8ea-52e6-4368-82a2-42f8afd594e2,Container service account
+kobs_state-3c55898b-d403-11ec-98c7-00155d8545fd,target_container_service_account,ktech-9300e8ea-52e6-4368-82a2-42f8afd594e2,Container service account
+kobs_state-3c5589c2-d403-11ec-b02a-00155d8545fd,target_container_service_account,ktech-9300e8ea-52e6-4368-82a2-42f8afd594e2,Container service account
+kobs_state-3c5589f8-d403-11ec-97de-00155d8545fd,target_container_service_account,ktech-9300e8ea-52e6-4368-82a2-42f8afd594e2,Container service account
+kobs_state-3c558a2c-d403-11ec-bc77-00155d8545fd,target_container_service_account,ktech-9300e8ea-52e6-4368-82a2-42f8afd594e2,Container service account
+kobs_state-3c558b0a-d403-11ec-b1e6-00155d8545fd,target_container_service_account,ktech-9300e8ea-52e6-4368-82a2-42f8afd594e2,Container service account
+kobs_state-3c55b970-d403-11ec-9a93-00155d8545fd,target_access_the_kubernetes_api_server,ktech-0c7a8541-1cf9-4cce-85d8-5824104289cf,Access the Kubernetes API server
+kobs_state-3c55b9ce-d403-11ec-a3aa-00155d8545fd,target_access_the_kubernetes_api_server,ktech-0c7a8541-1cf9-4cce-85d8-5824104289cf,Access the Kubernetes API server
+kobs_state-3c55ba0f-d403-11ec-a38c-00155d8545fd,target_access_the_kubernetes_api_server,ktech-0c7a8541-1cf9-4cce-85d8-5824104289cf,Access the Kubernetes API server
+kobs_state-3c55ba4b-d403-11ec-abfb-00155d8545fd,target_access_the_kubernetes_api_server,ktech-0c7a8541-1cf9-4cce-85d8-5824104289cf,Access the Kubernetes API server
+kobs_state-3c55ba84-d403-11ec-932d-00155d8545fd,target_access_the_kubernetes_api_server,ktech-0c7a8541-1cf9-4cce-85d8-5824104289cf,Access the Kubernetes API server
+kobs_state-3c55babd-d403-11ec-8a99-00155d8545fd,target_access_the_kubernetes_api_server,ktech-0c7a8541-1cf9-4cce-85d8-5824104289cf,Access the Kubernetes API server
+kobs_state-3c55baf6-d403-11ec-84d2-00155d8545fd,target_access_the_kubernetes_api_server,ktech-0c7a8541-1cf9-4cce-85d8-5824104289cf,Access the Kubernetes API server
+kobs_state-3c55bb2d-d403-11ec-9a3f-00155d8545fd,target_access_the_kubernetes_api_server,ktech-0c7a8541-1cf9-4cce-85d8-5824104289cf,Access the Kubernetes API server
+kobs_state-3c55bb65-d403-11ec-ab0e-00155d8545fd,target_access_the_kubernetes_api_server,ktech-0c7a8541-1cf9-4cce-85d8-5824104289cf,Access the Kubernetes API server
+kobs_state-3c55bb9c-d403-11ec-9550-00155d8545fd,target_access_the_kubernetes_api_server,ktech-0c7a8541-1cf9-4cce-85d8-5824104289cf,Access the Kubernetes API server
+kobs_state-3c55d0dc-d403-11ec-9acd-00155d8545fd,target_privileged_container,ktech-c902f00f-97fd-45c0-8753-dace2c608168,Privileged container
+kobs_state-3c55d138-d403-11ec-b923-00155d8545fd,target_privileged_container,ktech-c902f00f-97fd-45c0-8753-dace2c608168,Privileged container
+kobs_state-3c55d177-d403-11ec-ba69-00155d8545fd,target_privileged_container,ktech-c902f00f-97fd-45c0-8753-dace2c608168,Privileged container
+kobs_state-3c55d1b0-d403-11ec-8748-00155d8545fd,target_privileged_container,ktech-c902f00f-97fd-45c0-8753-dace2c608168,Privileged container
+kobs_state-3c55d1e7-d403-11ec-8916-00155d8545fd,target_privileged_container,ktech-c902f00f-97fd-45c0-8753-dace2c608168,Privileged container
+kobs_state-3c55d21c-d403-11ec-b22f-00155d8545fd,target_privileged_container,ktech-c902f00f-97fd-45c0-8753-dace2c608168,Privileged container
+kobs_state-3c55d253-d403-11ec-9997-00155d8545fd,target_privileged_container,ktech-c902f00f-97fd-45c0-8753-dace2c608168,Privileged container
+kobs_state-3c55d288-d403-11ec-8645-00155d8545fd,target_privileged_container,ktech-c902f00f-97fd-45c0-8753-dace2c608168,Privileged container
+kobs_state-3c55d2bd-d403-11ec-9bc5-00155d8545fd,target_privileged_container,ktech-c902f00f-97fd-45c0-8753-dace2c608168,Privileged container
+kobs_state-3c55d2f3-d403-11ec-b8d8-00155d8545fd,target_privileged_container,ktech-c902f00f-97fd-45c0-8753-dace2c608168,Privileged container
+kobs_state-3c55e9ba-d403-11ec-8f50-00155d8545fd,target_compromised_images_in_registry,ktech-40c10504-94ed-4e29-8caa-18eb049a7c0c,Compromised images in registry
+kobs_state-3c55ea15-d403-11ec-a633-00155d8545fd,target_compromised_images_in_registry,ktech-40c10504-94ed-4e29-8caa-18eb049a7c0c,Compromised images in registry
+kobs_state-3c55ea54-d403-11ec-ac1c-00155d8545fd,target_compromised_images_in_registry,ktech-40c10504-94ed-4e29-8caa-18eb049a7c0c,Compromised images in registry
+kobs_state-3c55ea8b-d403-11ec-9153-00155d8545fd,target_compromised_images_in_registry,ktech-40c10504-94ed-4e29-8caa-18eb049a7c0c,Compromised images in registry
+kobs_state-3c55eac4-d403-11ec-82b8-00155d8545fd,target_compromised_images_in_registry,ktech-40c10504-94ed-4e29-8caa-18eb049a7c0c,Compromised images in registry
+kobs_state-3c55eb09-d403-11ec-ba63-00155d8545fd,target_compromised_images_in_registry,ktech-40c10504-94ed-4e29-8caa-18eb049a7c0c,Compromised images in registry
+kobs_state-3c55eb44-d403-11ec-9e7f-00155d8545fd,target_compromised_images_in_registry,ktech-40c10504-94ed-4e29-8caa-18eb049a7c0c,Compromised images in registry
+kobs_state-3c55eb7b-d403-11ec-83d6-00155d8545fd,target_compromised_images_in_registry,ktech-40c10504-94ed-4e29-8caa-18eb049a7c0c,Compromised images in registry
+kobs_state-3c55ebaf-d403-11ec-be23-00155d8545fd,target_compromised_images_in_registry,ktech-40c10504-94ed-4e29-8caa-18eb049a7c0c,Compromised images in registry
+kobs_state-3c55ebe4-d403-11ec-8011-00155d8545fd,target_compromised_images_in_registry,ktech-40c10504-94ed-4e29-8caa-18eb049a7c0c,Compromised images in registry
+kobs_state-3c560365-d403-11ec-af50-00155d8545fd,target_mount_service_principal,ktech-2480daf0-c14e-4db9-9adb-46b00df4da5e,Mount service principal
+kobs_state-3c5604df-d403-11ec-a31b-00155d8545fd,target_mount_service_principal,ktech-2480daf0-c14e-4db9-9adb-46b00df4da5e,Mount service principal
+kobs_state-3c560525-d403-11ec-a968-00155d8545fd,target_mount_service_principal,ktech-2480daf0-c14e-4db9-9adb-46b00df4da5e,Mount service principal
+kobs_state-3c560562-d403-11ec-aacb-00155d8545fd,target_mount_service_principal,ktech-2480daf0-c14e-4db9-9adb-46b00df4da5e,Mount service principal
+kobs_state-3c56059c-d403-11ec-b47a-00155d8545fd,target_mount_service_principal,ktech-2480daf0-c14e-4db9-9adb-46b00df4da5e,Mount service principal
+kobs_state-3c5605d4-d403-11ec-8a4b-00155d8545fd,target_mount_service_principal,ktech-2480daf0-c14e-4db9-9adb-46b00df4da5e,Mount service principal
+kobs_state-3c56060e-d403-11ec-bcb4-00155d8545fd,target_mount_service_principal,ktech-2480daf0-c14e-4db9-9adb-46b00df4da5e,Mount service principal
+kobs_state-3c5606d3-d403-11ec-a183-00155d8545fd,target_mount_service_principal,ktech-2480daf0-c14e-4db9-9adb-46b00df4da5e,Mount service principal
+kobs_state-3c560720-d403-11ec-bd3c-00155d8545fd,target_mount_service_principal,ktech-2480daf0-c14e-4db9-9adb-46b00df4da5e,Mount service principal
+kobs_state-3c56075b-d403-11ec-b44d-00155d8545fd,target_mount_service_principal,ktech-2480daf0-c14e-4db9-9adb-46b00df4da5e,Mount service principal

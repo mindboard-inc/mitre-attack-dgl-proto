@@ -1,0 +1,743 @@
+"id","parent_id","name","tactic_id","tactic_name","is_obsolete","is_kscope","m_ktech_id"
+"T1595",NULL,"Active Scanning","TA0043","Reconnaissance",0,0,NULL
+"T1595.001","T1595","Scanning IP Blocks","TA0043","Reconnaissance",0,0,NULL
+"T1595.002","T1595","Vulnerability Scanning","TA0043","Reconnaissance",0,0,NULL
+"T1595.003","T1595","Wordlist Scanning","TA0043","Reconnaissance",0,0,NULL
+"T1592",NULL,"Gather Victim Host Information","TA0043","Reconnaissance",0,0,NULL
+"T1592.004","T1592","Client Configurations","TA0043","Reconnaissance",0,0,NULL
+"T1592.003","T1592","Firmware","TA0043","Reconnaissance",0,0,NULL
+"T1592.001","T1592","Hardware","TA0043","Reconnaissance",0,0,NULL
+"T1592.002","T1592","Software","TA0043","Reconnaissance",0,0,NULL
+"T1589",NULL,"Gather Victim Identity Information","TA0043","Reconnaissance",0,0,NULL
+"T1589.001","T1589","Credentials","TA0043","Reconnaissance",0,0,NULL
+"T1589.002","T1589","Email Addresses","TA0043","Reconnaissance",0,0,NULL
+"T1589.003","T1589","Employee Names","TA0043","Reconnaissance",0,0,NULL
+"T1590",NULL,"Gather Victim Network Information","TA0043","Reconnaissance",0,0,NULL
+"T1590.002","T1590","DNS","TA0043","Reconnaissance",0,0,NULL
+"T1590.001","T1590","Domain Properties","TA0043","Reconnaissance",0,0,NULL
+"T1590.005","T1590","IP Addresses","TA0043","Reconnaissance",0,0,NULL
+"T1590.006","T1590","Network Security Appliances","TA0043","Reconnaissance",0,0,NULL
+"T1590.004","T1590","Network Topology","TA0043","Reconnaissance",0,0,NULL
+"T1590.003","T1590","Network Trust Dependencies","TA0043","Reconnaissance",0,0,NULL
+"T1591",NULL,"Gather Victim Org Information","TA0043","Reconnaissance",0,0,NULL
+"T1591.002","T1591","Business Relationships","TA0043","Reconnaissance",0,0,NULL
+"T1591.001","T1591","Determine Physical Locations","TA0043","Reconnaissance",0,0,NULL
+"T1591.003","T1591","Identify Business Tempo","TA0043","Reconnaissance",0,0,NULL
+"T1591.004","T1591","Identify Roles","TA0043","Reconnaissance",0,0,NULL
+"T1598",NULL,"Phishing for Information","TA0043","Reconnaissance",0,0,NULL
+"T1598.002","T1598","Spearphishing Attachment","TA0043","Reconnaissance",0,0,NULL
+"T1598.003","T1598","Spearphishing Link","TA0043","Reconnaissance",0,0,NULL
+"T1598.001","T1598","Spearphishing Service","TA0043","Reconnaissance",0,0,NULL
+"T1597",NULL,"Search Closed Sources","TA0043","Reconnaissance",0,0,NULL
+"T1597.002","T1597","Purchase Technical Data","TA0043","Reconnaissance",0,0,NULL
+"T1597.001","T1597","Threat Intel Vendors","TA0043","Reconnaissance",0,0,NULL
+"T1596",NULL,"Search Open Technical Databases","TA0043","Reconnaissance",0,0,NULL
+"T1596.004","T1596","CDNs","TA0043","Reconnaissance",0,0,NULL
+"T1596.003","T1596","Digital Certificates","TA0043","Reconnaissance",0,0,NULL
+"T1596.001","T1596","DNS/Passive DNS","TA0043","Reconnaissance",0,0,NULL
+"T1596.005","T1596","Scan Databases","TA0043","Reconnaissance",0,0,NULL
+"T1596.002","T1596","WHOIS","TA0043","Reconnaissance",0,0,NULL
+"T1593",NULL,"Search Open Websites/Domains","TA0043","Reconnaissance",0,0,NULL
+"T1593.002","T1593","Search Engines","TA0043","Reconnaissance",0,0,NULL
+"T1593.001","T1593","Social Media","TA0043","Reconnaissance",0,0,NULL
+"T1594",NULL,"Search Victim-Owned Websites","TA0043","Reconnaissance",0,0,NULL
+"T1583",NULL,"Acquire Infrastructure","TA0042","Resource Development",0,0,NULL
+"T1583.005","T1583","Botnet","TA0042","Resource Development",0,0,NULL
+"T1583.002","T1583","DNS Server","TA0042","Resource Development",0,0,NULL
+"T1583.001","T1583","Domains","TA0042","Resource Development",0,0,NULL
+"T1583.004","T1583","Server","TA0042","Resource Development",0,0,NULL
+"T1583.003","T1583","Virtual Private Server","TA0042","Resource Development",0,0,NULL
+"T1583.006","T1583","Web Services","TA0042","Resource Development",0,0,NULL
+"T1586",NULL,"Compromise Accounts","TA0042","Resource Development",0,0,NULL
+"T1586.002","T1586","Email Accounts","TA0042","Resource Development",0,0,NULL
+"T1586.001","T1586","Social Media Accounts","TA0042","Resource Development",0,0,NULL
+"T1584",NULL,"Compromise Infrastructure","TA0042","Resource Development",0,0,NULL
+"T1584.005","T1584","Botnet","TA0042","Resource Development",0,0,NULL
+"T1584.002","T1584","DNS Server","TA0042","Resource Development",0,0,NULL
+"T1584.001","T1584","Domains","TA0042","Resource Development",0,0,NULL
+"T1584.004","T1584","Server","TA0042","Resource Development",0,0,NULL
+"T1584.003","T1584","Virtual Private Server","TA0042","Resource Development",0,0,NULL
+"T1584.006","T1584","Web Services","TA0042","Resource Development",0,0,NULL
+"T1587",NULL,"Develop Capabilities","TA0042","Resource Development",0,0,NULL
+"T1587.002","T1587","Code Signing Certificates","TA0042","Resource Development",0,0,NULL
+"T1587.003","T1587","Digital Certificates","TA0042","Resource Development",0,0,NULL
+"T1587.004","T1587","Exploits","TA0042","Resource Development",0,0,NULL
+"T1587.001","T1587","Malware","TA0042","Resource Development",0,0,NULL
+"T1585",NULL,"Establish Accounts","TA0042","Resource Development",0,0,NULL
+"T1585.002","T1585","Email Accounts","TA0042","Resource Development",0,0,NULL
+"T1585.001","T1585","Social Media Accounts","TA0042","Resource Development",0,0,NULL
+"T1588",NULL,"Obtain Capabilities","TA0042","Resource Development",0,0,NULL
+"T1588.003","T1588","Code Signing Certificates","TA0042","Resource Development",0,0,NULL
+"T1588.004","T1588","Digital Certificates","TA0042","Resource Development",0,0,NULL
+"T1588.005","T1588","Exploits","TA0042","Resource Development",0,0,NULL
+"T1588.001","T1588","Malware","TA0042","Resource Development",0,0,NULL
+"T1588.002","T1588","Tool","TA0042","Resource Development",0,0,NULL
+"T1588.006","T1588","Vulnerabilities","TA0042","Resource Development",0,0,NULL
+"T1608",NULL,"Stage Capabilities","TA0042","Resource Development",0,0,NULL
+"T1608.004","T1608","Drive-by Target","TA0042","Resource Development",0,0,NULL
+"T1608.003","T1608","Install Digital Certificate","TA0042","Resource Development",0,0,NULL
+"T1608.005","T1608","Link Target","TA0042","Resource Development",0,0,NULL
+"T1608.001","T1608","Upload Malware","TA0042","Resource Development",0,0,NULL
+"T1608.002","T1608","Upload Tool","TA0042","Resource Development",0,0,NULL
+"T1189",NULL,"Drive-by Compromise","TA0001","Initial Access",0,0,NULL
+"T1200",NULL,"Hardware Additions","TA0001","Initial Access",0,0,NULL
+"T1566",NULL,"Phishing","TA0001","Initial Access",0,0,NULL
+"T1566.001","T1566","Spearphishing Attachment","TA0001","Initial Access",0,0,NULL
+"T1566.002","T1566","Spearphishing Link","TA0001","Initial Access",0,0,NULL
+"T1566.003","T1566","Spearphishing via Service","TA0001","Initial Access",0,0,NULL
+"T1091",NULL,"Replication Through Removable Media","TA0001","Initial Access",0,0,NULL
+"T1195",NULL,"Supply Chain Compromise","TA0001","Initial Access",0,0,NULL
+"T1195.003","T1195","Compromise Hardware Supply Chain","TA0001","Initial Access",0,0,NULL
+"T1195.001","T1195","Compromise Software Dependencies and Development Tools","TA0001","Initial Access",0,0,NULL
+"T1195.002","T1195","Compromise Software Supply Chain","TA0001","Initial Access",0,0,NULL
+"T1199",NULL,"Trusted Relationship","TA0001","Initial Access",0,0,NULL
+"T1059",NULL,"Command and Scripting Interpreter","TA0001","Execution",0,0,NULL
+"T1059.002","T1059","AppleScript","TA0001","Execution",0,0,NULL
+"T1059.007","T1059","JavaScript","TA0001","Execution",0,0,NULL
+"T1059.008","T1059","Network Device CLI","TA0001","Execution",0,0,NULL
+"T1059.001","T1059","PowerShell","TA0001","Execution",0,0,NULL
+"T1059.006","T1059","Python","TA0001","Execution",0,0,NULL
+"T1059.004","T1059","Unix Shell","TA0001","Execution",0,0,NULL
+"T1059.005","T1059","Visual Basic","TA0001","Execution",0,0,NULL
+"T1059.003","T1059","Windows Command Shell","TA0001","Execution",0,0,NULL
+"T1203",NULL,"Exploitation for Client Execution","TA0001","Execution",0,0,NULL
+"T1559",NULL,"Inter-Process Communication","TA0001","Execution",0,0,NULL
+"T1559.001","T1559","Component Object Model","TA0001","Execution",0,0,NULL
+"T1559.002","T1559","Dynamic Data Exchange","TA0001","Execution",0,0,NULL
+"T1559.003","T1559","XPC Services","TA0001","Execution",0,0,NULL
+"T1106",NULL,"Native API","TA0001","Execution",0,0,NULL
+"T1053.002","T1053","At","TA0001","Execution",0,0,NULL
+"T1129",NULL,"Shared Modules","TA0001","Execution",0,0,NULL
+"T1072",NULL,"Software Deployment Tools","TA0001","Execution",0,0,NULL
+"T1569",NULL,"System Services","TA0001","Execution",0,0,NULL
+"T1569.001","T1569","Launchctl","TA0001","Execution",0,0,NULL
+"T1569.002","T1569","Service Execution","TA0001","Execution",0,0,NULL
+"T1047",NULL,"Windows Management Instrumentation","TA0001","Execution",0,0,NULL
+"T1098",NULL,"Account Manipulation","TA0003","Persistence",0,0,NULL
+"T1098.001","T1098","Additional Cloud Credentials","TA0003","Persistence",0,0,NULL
+"T1098.003","T1098","Additional Cloud Roles","TA0003","Persistence",0,0,NULL
+"T1098.002","T1098","Additional Email Delegate Permissions","TA0003","Persistence",0,0,NULL
+"T1098.005","T1098","Device Registration","TA0003","Persistence",0,0,NULL
+"T1098.004","T1098","SSH Authorized Keys","TA0003","Persistence",0,0,NULL
+"T1197",NULL,"BITS Jobs","TA0003","Persistence",0,0,NULL
+"T1547",NULL,"Boot or Logon Autostart Execution","TA0003","Persistence",0,0,NULL
+"T1547.014","T1547","Active Setup","TA0003","Persistence",0,0,NULL
+"T1547.002","T1547","Authentication Package","TA0003","Persistence",0,0,NULL
+"T1547.006","T1547","Kernel Modules and Extensions","TA0003","Persistence",0,0,NULL
+"T1547.015","T1547","Login Items","TA0003","Persistence",0,0,NULL
+"T1547.008","T1547","LSASS Driver","TA0003","Persistence",0,0,NULL
+"T1547.010","T1547","Port Monitors","TA0003","Persistence",0,0,NULL
+"T1547.012","T1547","Print Processors","TA0003","Persistence",0,0,NULL
+"T1547.007","T1547","Re-opened Applications","TA0003","Persistence",0,0,NULL
+"T1547.001","T1547","Registry Run Keys / Startup Folder","TA0003","Persistence",0,0,NULL
+"T1547.005","T1547","Security Support Provider","TA0003","Persistence",0,0,NULL
+"T1547.009","T1547","Shortcut Modification","TA0003","Persistence",0,0,NULL
+"T1547.003","T1547","Time Providers","TA0003","Persistence",0,0,NULL
+"T1547.004","T1547","Winlogon Helper DLL","TA0003","Persistence",0,0,NULL
+"T1547.013","T1547","XDG Autostart Entries","TA0003","Persistence",0,0,NULL
+"T1037",NULL,"Boot or Logon Initialization Scripts","TA0003","Persistence",0,0,NULL
+"T1037.002","T1037","Login Hook","TA0003","Persistence",0,0,NULL
+"T1037.001","T1037","Logon Script (Windows)","TA0003","Persistence",0,0,NULL
+"T1037.003","T1037","Network Logon Script","TA0003","Persistence",0,0,NULL
+"T1037.004","T1037","RC Scripts","TA0003","Persistence",0,0,NULL
+"T1037.005","T1037","Startup Items","TA0003","Persistence",0,0,NULL
+"T1176",NULL,"Browser Extensions","TA0003","Persistence",0,0,NULL
+"T1554",NULL,"Compromise Client Software Binary","TA0003","Persistence",0,0,NULL
+"T1136",NULL,"Create Account","TA0003","Persistence",0,0,NULL
+"T1136.003","T1136","Cloud Account","TA0003","Persistence",0,0,NULL
+"T1136.002","T1136","Domain Account","TA0003","Persistence",0,0,NULL
+"T1136.001","T1136","Local Account","TA0003","Persistence",0,0,NULL
+"T1543",NULL,"Create or Modify System Process","TA0003","Persistence",0,0,NULL
+"T1543.001","T1543","Launch Agent","TA0003","Persistence",0,0,NULL
+"T1543.004","T1543","Launch Daemon","TA0003","Persistence",0,0,NULL
+"T1543.002","T1543","Systemd Service","TA0003","Persistence",0,0,NULL
+"T1543.003","T1543","Windows Service","TA0003","Persistence",0,0,NULL
+"T1546",NULL,"Event Triggered Execution","TA0003","Persistence",0,0,NULL
+"T1546.008","T1546","Accessibility Features","TA0003","Persistence",0,0,NULL
+"T1546.009","T1546","AppCert DLLs","TA0003","Persistence",0,0,NULL
+"T1546.010","T1546","AppInit DLLs","TA0003","Persistence",0,0,NULL
+"T1546.011","T1546","Application Shimming","TA0003","Persistence",0,0,NULL
+"T1546.001","T1546","Change Default File Association","TA0003","Persistence",0,0,NULL
+"T1546.015","T1546","Component Object Model Hijacking","TA0003","Persistence",0,0,NULL
+"T1546.014","T1546","Emond","TA0003","Persistence",0,0,NULL
+"T1546.012","T1546","Image File Execution Options Injection","TA0003","Persistence",0,0,NULL
+"T1546.006","T1546","LC_LOAD_DYLIB Addition","TA0003","Persistence",0,0,NULL
+"T1546.007","T1546","Netsh Helper DLL","TA0003","Persistence",0,0,NULL
+"T1546.013","T1546","PowerShell Profile","TA0003","Persistence",0,0,NULL
+"T1546.002","T1546","Screensaver","TA0003","Persistence",0,0,NULL
+"T1546.005","T1546","Trap","TA0003","Persistence",0,0,NULL
+"T1546.004","T1546","Unix Shell Configuration Modification","TA0003","Persistence",0,0,NULL
+"T1546.003","T1546","Windows Management Instrumentation Event Subscription","TA0003","Persistence",0,0,NULL
+"T1574",NULL,"Hijack Execution Flow","TA0003","Persistence",0,0,NULL
+"T1574.012","T1574","COR_PROFILER","TA0003","Persistence",0,0,NULL
+"T1574.001","T1574","DLL Search Order Hijacking","TA0003","Persistence",0,0,NULL
+"T1574.002","T1574","DLL Side-Loading","TA0003","Persistence",0,0,NULL
+"T1574.004","T1574","Dylib Hijacking","TA0003","Persistence",0,0,NULL
+"T1574.006","T1574","Dynamic Linker Hijacking","TA0003","Persistence",0,0,NULL
+"T1574.005","T1574","Executable Installer File Permissions Weakness","TA0003","Persistence",0,0,NULL
+"T1574.013","T1574","KernelCallbackTable","TA0003","Persistence",0,0,NULL
+"T1574.007","T1574","Path Interception by PATH Environment Variable","TA0003","Persistence",0,0,NULL
+"T1574.008","T1574","Path Interception by Search Order Hijacking","TA0003","Persistence",0,0,NULL
+"T1574.009","T1574","Path Interception by Unquoted Path","TA0003","Persistence",0,0,NULL
+"T1574.010","T1574","Services File Permissions Weakness","TA0003","Persistence",0,0,NULL
+"T1574.011","T1574","Services Registry Permissions Weakness","TA0003","Persistence",0,0,NULL
+"T1556",NULL,"Modify Authentication Process","TA0003","Persistence",0,0,NULL
+"T1556.001","T1556","Domain Controller Authentication","TA0003","Persistence",0,0,NULL
+"T1556.004","T1556","Network Device Authentication","TA0003","Persistence",0,0,NULL
+"T1556.002","T1556","Password Filter DLL","TA0003","Persistence",0,0,NULL
+"T1556.003","T1556","Pluggable Authentication Modules","TA0003","Persistence",0,0,NULL
+"T1556.005","T1556","Reversible Encryption","TA0003","Persistence",0,0,NULL
+"T1137",NULL,"Office Application Startup","TA0003","Persistence",0,0,NULL
+"T1137.006","T1137","Add-ins","TA0003","Persistence",0,0,NULL
+"T1137.001","T1137","Office Template Macros","TA0003","Persistence",0,0,NULL
+"T1137.002","T1137","Office Test","TA0003","Persistence",0,0,NULL
+"T1137.003","T1137","Outlook Forms","TA0003","Persistence",0,0,NULL
+"T1137.004","T1137","Outlook Home Page","TA0003","Persistence",0,0,NULL
+"T1137.005","T1137","Outlook Rules","TA0003","Persistence",0,0,NULL
+"T1542",NULL,"Pre-OS Boot","TA0003","Persistence",0,0,NULL
+"T1542.003","T1542","Bootkit","TA0003","Persistence",0,0,NULL
+"T1542.002","T1542","Component Firmware","TA0003","Persistence",0,0,NULL
+"T1542.004","T1542","ROMMONkit","TA0003","Persistence",0,0,NULL
+"T1542.001","T1542","System Firmware","TA0003","Persistence",0,0,NULL
+"T1542.005","T1542","TFTP Boot","TA0003","Persistence",0,0,NULL
+"T1053.002","T1053","At","TA0003","Persistence",0,0,NULL
+"T1505",NULL,"Server Software Component","TA0003","Persistence",0,0,NULL
+"T1505.004","T1505","IIS Components","TA0003","Persistence",0,0,NULL
+"T1505.001","T1505","SQL Stored Procedures","TA0003","Persistence",0,0,NULL
+"T1505.005","T1505","Terminal Services DLL","TA0003","Persistence",0,0,NULL
+"T1505.002","T1505","Transport Agent","TA0003","Persistence",0,0,NULL
+"T1505.003","T1505","Web Shell","TA0003","Persistence",0,0,NULL
+"T1205.001","T1205","Port Knocking","TA0003","Persistence",1,0,NULL
+"T1548",NULL,"Abuse Elevation Control Mechanism","TA0004","Privilege Escalation",0,0,NULL
+"T1548.002","T1548","Bypass User Account Control","TA0004","Privilege Escalation",0,0,NULL
+"T1548.004","T1548","Elevated Execution with Prompt","TA0004","Privilege Escalation",0,0,NULL
+"T1548.001","T1548","Setuid and Setgid","TA0004","Privilege Escalation",0,0,NULL
+"T1548.003","T1548","Sudo and Sudo Caching","TA0004","Privilege Escalation",0,0,NULL
+"T1134",NULL,"Access Token Manipulation","TA0004","Privilege Escalation",0,0,NULL
+"T1134.002","T1134","Create Process with Token","TA0004","Privilege Escalation",0,0,NULL
+"T1134.003","T1134","Make and Impersonate Token","TA0004","Privilege Escalation",0,0,NULL
+"T1134.004","T1134","Parent PID Spoofing","TA0004","Privilege Escalation",0,0,NULL
+"T1134.005","T1134","SID-History Injection","TA0004","Privilege Escalation",0,0,NULL
+"T1134.001","T1134","Token Impersonation/Theft","TA0004","Privilege Escalation",0,0,NULL
+"T1547",NULL,"Boot or Logon Autostart Execution","TA0004","Privilege Escalation",0,0,NULL
+"T1547.014","T1547","Active Setup","TA0004","Privilege Escalation",0,0,NULL
+"T1547.002","T1547","Authentication Package","TA0004","Privilege Escalation",0,0,NULL
+"T1547.006","T1547","Kernel Modules and Extensions","TA0004","Privilege Escalation",0,0,NULL
+"T1547.015","T1547","Login Items","TA0004","Privilege Escalation",0,0,NULL
+"T1547.008","T1547","LSASS Driver","TA0004","Privilege Escalation",0,0,NULL
+"T1547.010","T1547","Port Monitors","TA0004","Privilege Escalation",0,0,NULL
+"T1547.012","T1547","Print Processors","TA0004","Privilege Escalation",0,0,NULL
+"T1547.007","T1547","Re-opened Applications","TA0004","Privilege Escalation",0,0,NULL
+"T1547.001","T1547","Registry Run Keys / Startup Folder","TA0004","Privilege Escalation",0,0,NULL
+"T1547.005","T1547","Security Support Provider","TA0004","Privilege Escalation",0,0,NULL
+"T1547.009","T1547","Shortcut Modification","TA0004","Privilege Escalation",0,0,NULL
+"T1547.003","T1547","Time Providers","TA0004","Privilege Escalation",0,0,NULL
+"T1547.004","T1547","Winlogon Helper DLL","TA0004","Privilege Escalation",0,0,NULL
+"T1547.013","T1547","XDG Autostart Entries","TA0004","Privilege Escalation",0,0,NULL
+"T1037",NULL,"Boot or Logon Initialization Scripts","TA0004","Privilege Escalation",0,0,NULL
+"T1037.002","T1037","Login Hook","TA0004","Privilege Escalation",0,0,NULL
+"T1037.001","T1037","Logon Script (Windows)","TA0004","Privilege Escalation",0,0,NULL
+"T1037.003","T1037","Network Logon Script","TA0004","Privilege Escalation",0,0,NULL
+"T1037.004","T1037","RC Scripts","TA0004","Privilege Escalation",0,0,NULL
+"T1037.005","T1037","Startup Items","TA0004","Privilege Escalation",0,0,NULL
+"T1543",NULL,"Create or Modify System Process","TA0004","Privilege Escalation",0,0,NULL
+"T1543.001","T1543","Launch Agent","TA0004","Privilege Escalation",0,0,NULL
+"T1543.004","T1543","Launch Daemon","TA0004","Privilege Escalation",0,0,NULL
+"T1543.002","T1543","Systemd Service","TA0004","Privilege Escalation",0,0,NULL
+"T1543.003","T1543","Windows Service","TA0004","Privilege Escalation",0,0,NULL
+"T1484",NULL,"Domain Policy Modification","TA0004","Privilege Escalation",0,0,NULL
+"T1484.002","T1484","Domain Trust Modification","TA0004","Privilege Escalation",0,0,NULL
+"T1484.001","T1484","Group Policy Modification","TA0004","Privilege Escalation",0,0,NULL
+"T1546",NULL,"Event Triggered Execution","TA0004","Privilege Escalation",0,0,NULL
+"T1546.008","T1546","Accessibility Features","TA0004","Privilege Escalation",0,0,NULL
+"T1546.009","T1546","AppCert DLLs","TA0004","Privilege Escalation",0,0,NULL
+"T1546.010","T1546","AppInit DLLs","TA0004","Privilege Escalation",0,0,NULL
+"T1546.011","T1546","Application Shimming","TA0004","Privilege Escalation",0,0,NULL
+"T1546.001","T1546","Change Default File Association","TA0004","Privilege Escalation",0,0,NULL
+"T1546.015","T1546","Component Object Model Hijacking","TA0004","Privilege Escalation",0,0,NULL
+"T1546.014","T1546","Emond","TA0004","Privilege Escalation",0,0,NULL
+"T1546.012","T1546","Image File Execution Options Injection","TA0004","Privilege Escalation",0,0,NULL
+"T1546.006","T1546","LC_LOAD_DYLIB Addition","TA0004","Privilege Escalation",0,0,NULL
+"T1546.007","T1546","Netsh Helper DLL","TA0004","Privilege Escalation",0,0,NULL
+"T1546.013","T1546","PowerShell Profile","TA0004","Privilege Escalation",0,0,NULL
+"T1546.002","T1546","Screensaver","TA0004","Privilege Escalation",0,0,NULL
+"T1546.005","T1546","Trap","TA0004","Privilege Escalation",0,0,NULL
+"T1546.004","T1546","Unix Shell Configuration Modification","TA0004","Privilege Escalation",0,0,NULL
+"T1546.003","T1546","Windows Management Instrumentation Event Subscription","TA0004","Privilege Escalation",0,0,NULL
+"T1574",NULL,"Hijack Execution Flow","TA0004","Privilege Escalation",0,0,NULL
+"T1574.012","T1574","COR_PROFILER","TA0004","Privilege Escalation",0,0,NULL
+"T1574.001","T1574","DLL Search Order Hijacking","TA0004","Privilege Escalation",0,0,NULL
+"T1574.002","T1574","DLL Side-Loading","TA0004","Privilege Escalation",0,0,NULL
+"T1574.004","T1574","Dylib Hijacking","TA0004","Privilege Escalation",0,0,NULL
+"T1574.006","T1574","Dynamic Linker Hijacking","TA0004","Privilege Escalation",0,0,NULL
+"T1574.005","T1574","Executable Installer File Permissions Weakness","TA0004","Privilege Escalation",0,0,NULL
+"T1574.013","T1574","KernelCallbackTable","TA0004","Privilege Escalation",0,0,NULL
+"T1574.007","T1574","Path Interception by PATH Environment Variable","TA0004","Privilege Escalation",0,0,NULL
+"T1574.008","T1574","Path Interception by Search Order Hijacking","TA0004","Privilege Escalation",0,0,NULL
+"T1574.009","T1574","Path Interception by Unquoted Path","TA0004","Privilege Escalation",0,0,NULL
+"T1574.010","T1574","Services File Permissions Weakness","TA0004","Privilege Escalation",0,0,NULL
+"T1574.011","T1574","Services Registry Permissions Weakness","TA0004","Privilege Escalation",0,0,NULL
+"T1055",NULL,"Process Injection","TA0004","Privilege Escalation",0,0,NULL
+"T1055.004","T1055","Asynchronous Procedure Call","TA0004","Privilege Escalation",0,0,NULL
+"T1055.001","T1055","Dynamic-link Library Injection","TA0004","Privilege Escalation",0,0,NULL
+"T1055.011","T1055","Extra Window Memory Injection","TA0004","Privilege Escalation",0,0,NULL
+"T1055.015","T1055","ListPlanting","TA0004","Privilege Escalation",0,0,NULL
+"T1055.002","T1055","Portable Executable Injection","TA0004","Privilege Escalation",0,0,NULL
+"T1055.009","T1055","Proc Memory","TA0004","Privilege Escalation",0,0,NULL
+"T1055.013","T1055","Process Doppelganging","TA0004","Privilege Escalation",0,0,NULL
+"T1055.012","T1055","Process Hollowing","TA0004","Privilege Escalation",0,0,NULL
+"T1055.008","T1055","Ptrace System Calls","TA0004","Privilege Escalation",0,0,NULL
+"T1055.003","T1055","Thread Execution Hijacking","TA0004","Privilege Escalation",0,0,NULL
+"T1055.005","T1055","Thread Local Storage","TA0004","Privilege Escalation",0,0,NULL
+"T1055.014","T1055","VDSO Hijacking","TA0004","Privilege Escalation",0,0,NULL
+"T1053.002","T1053","At","TA0004","Privilege Escalation",0,0,NULL
+"T1548",NULL,"Abuse Elevation Control Mechanism","TA0005","Defense Evasion",0,0,NULL
+"T1548.002","T1548","Bypass User Account Control","TA0005","Defense Evasion",0,0,NULL
+"T1548.004","T1548","Elevated Execution with Prompt","TA0005","Defense Evasion",0,0,NULL
+"T1548.001","T1548","Setuid and Setgid","TA0005","Defense Evasion",0,0,NULL
+"T1548.003","T1548","Sudo and Sudo Caching","TA0005","Defense Evasion",0,0,NULL
+"T1134",NULL,"Access Token Manipulation","TA0005","Defense Evasion",0,0,NULL
+"T1134.002","T1134","Create Process with Token","TA0005","Defense Evasion",0,0,NULL
+"T1134.003","T1134","Make and Impersonate Token","TA0005","Defense Evasion",0,0,NULL
+"T1134.004","T1134","Parent PID Spoofing","TA0005","Defense Evasion",0,0,NULL
+"T1134.005","T1134","SID-History Injection","TA0005","Defense Evasion",0,0,NULL
+"T1134.001","T1134","Token Impersonation/Theft","TA0005","Defense Evasion",0,0,NULL
+"T1197",NULL,"BITS Jobs","TA0005","Defense Evasion",0,0,NULL
+"T1622",NULL,"Debugger Evasion","TA0005","Defense Evasion",0,0,NULL
+"T1140",NULL,"Deobfuscate/Decode Files or Information","TA0005","Defense Evasion",0,0,NULL
+"T1006",NULL,"Direct Volume Access","TA0005","Defense Evasion",0,0,NULL
+"T1134",NULL,"Access Token Manipulation","TA0005","Defense Evasion",0,0,NULL
+"T1484.002","T1484","Domain Trust Modification","TA0005","Defense Evasion",0,0,NULL
+"T1484.001","T1484","Group Policy Modification","TA0005","Defense Evasion",0,0,NULL
+"T1480",NULL,"Execution Guardrails","TA0005","Defense Evasion",0,0,NULL
+"T1480.001","T1480","Environmental Keying","TA0005","Defense Evasion",0,0,NULL
+"T1211",NULL,"Exploitation for Defense Evasion","TA0005","Defense Evasion",0,0,NULL
+"T1222",NULL,"File and Directory Permissions Modification","TA0005","Defense Evasion",0,0,NULL
+"T1222.002","T1222","Linux and Mac File and Directory Permissions Modification","TA0005","Defense Evasion",0,0,NULL
+"T1222.001","T1222","Windows File and Directory Permissions Modification","TA0005","Defense Evasion",0,0,NULL
+"T1564",NULL,"Hide Artifacts","TA0005","Defense Evasion",0,0,NULL
+"T1564.008","T1564","Email Hiding Rules","TA0005","Defense Evasion",0,0,NULL
+"T1564.005","T1564","Hidden File System","TA0005","Defense Evasion",0,0,NULL
+"T1564.001","T1564","Hidden Files and Directories","TA0005","Defense Evasion",0,0,NULL
+"T1564.002","T1564","Hidden Users","TA0005","Defense Evasion",0,0,NULL
+"T1564.003","T1564","Hidden Window","TA0005","Defense Evasion",0,0,NULL
+"T1564.004","T1564","NTFS File Attributes","TA0005","Defense Evasion",0,0,NULL
+"T1564.010","T1564","Process Argument Spoofing","TA0005","Defense Evasion",0,0,NULL
+"T1564.009","T1564","Resource Forking","TA0005","Defense Evasion",0,0,NULL
+"T1564.006","T1564","Run Virtual Instance","TA0005","Defense Evasion",0,0,NULL
+"T1564.007","T1564","VBA Stomping","TA0005","Defense Evasion",0,0,NULL
+"T1574",NULL,"Hijack Execution Flow","TA0005","Defense Evasion",0,0,NULL
+"T1574.012","T1574","COR_PROFILER","TA0005","Defense Evasion",0,0,NULL
+"T1574.001","T1574","DLL Search Order Hijacking","TA0005","Defense Evasion",0,0,NULL
+"T1574.002","T1574","DLL Side-Loading","TA0005","Defense Evasion",0,0,NULL
+"T1574.004","T1574","Dylib Hijacking","TA0005","Defense Evasion",0,0,NULL
+"T1574.006","T1574","Dynamic Linker Hijacking","TA0005","Defense Evasion",0,0,NULL
+"T1574.005","T1574","Executable Installer File Permissions Weakness","TA0005","Defense Evasion",0,0,NULL
+"T1574.013","T1574","KernelCallbackTable","TA0005","Defense Evasion",0,0,NULL
+"T1574.007","T1574","Path Interception by PATH Environment Variable","TA0005","Defense Evasion",0,0,NULL
+"T1574.008","T1574","Path Interception by Search Order Hijacking","TA0005","Defense Evasion",0,0,NULL
+"T1574.009","T1574","Path Interception by Unquoted Path","TA0005","Defense Evasion",0,0,NULL
+"T1574.010","T1574","Services File Permissions Weakness","TA0005","Defense Evasion",0,0,NULL
+"T1574.011","T1574","Services Registry Permissions Weakness","TA0005","Defense Evasion",0,0,NULL
+"T1202",NULL,"Indirect Command Execution","TA0005","Defense Evasion",0,0,NULL
+"T1556",NULL,"Modify Authentication Process","TA0005","Defense Evasion",0,0,NULL
+"T1556.001","T1556","Domain Controller Authentication","TA0005","Defense Evasion",0,0,NULL
+"T1556.004","T1556","Network Device Authentication","TA0005","Defense Evasion",0,0,NULL
+"T1556.002","T1556","Password Filter DLL","TA0005","Defense Evasion",0,0,NULL
+"T1556.003","T1556","Pluggable Authentication Modules","TA0005","Defense Evasion",0,0,NULL
+"T1556.005","T1556","Reversible Encryption","TA0005","Defense Evasion",0,0,NULL
+"T1578",NULL,"Modify Cloud Compute Infrastructure","TA0005","Defense Evasion",0,0,NULL
+"T1578.002","T1578","Create Cloud Instance","TA0005","Defense Evasion",0,0,NULL
+"T1578.001","T1578","Create Snapshot","TA0005","Defense Evasion",0,0,NULL
+"T1578.003","T1578","Delete Cloud Instance","TA0005","Defense Evasion",0,0,NULL
+"T1578.004","T1578","Revert Cloud Instance","TA0005","Defense Evasion",0,0,NULL
+"T1112",NULL,"Modify Registry","TA0005","Defense Evasion",0,0,NULL
+"T1601",NULL,"Modify System Image","TA0005","Defense Evasion",0,0,NULL
+"T1601.002","T1601","Downgrade System Image","TA0005","Defense Evasion",0,0,NULL
+"T1601.001","T1601","Patch System Image","TA0005","Defense Evasion",0,0,NULL
+"T1599",NULL,"Network Boundary Bridging","TA0005","Defense Evasion",0,0,NULL
+"T1599.001","T1599","Network Address Translation Traversal","TA0005","Defense Evasion",0,0,NULL
+"T1027",NULL,"Obfuscated Files or Information","TA0005","Defense Evasion",0,0,NULL
+"T1027.001","T1027","Binary Padding","TA0005","Defense Evasion",0,0,NULL
+"T1027.004","T1027","Compile After Delivery","TA0005","Defense Evasion",0,0,NULL
+"T1027.006","T1027","HTML Smuggling","TA0005","Defense Evasion",0,0,NULL
+"T1027.005","T1027","Indicator Removal from Tools","TA0005","Defense Evasion",0,0,NULL
+"T1027.002","T1027","Software Packing","TA0005","Defense Evasion",0,0,NULL
+"T1027.003","T1027","Steganography","TA0005","Defense Evasion",0,0,NULL
+"T1647",NULL,"Plist File Modification","TA0005","Defense Evasion",0,0,NULL
+"T1542",NULL,"Pre-OS Boot","TA0005","Defense Evasion",0,0,NULL
+"T1542.003","T1542","Bootkit","TA0005","Defense Evasion",0,0,NULL
+"T1542.002","T1542","Component Firmware","TA0005","Defense Evasion",0,0,NULL
+"T1542.004","T1542","ROMMONkit","TA0005","Defense Evasion",0,0,NULL
+"T1542.001","T1542","System Firmware","TA0005","Defense Evasion",0,0,NULL
+"T1542.005","T1542","TFTP Boot","TA0005","Defense Evasion",0,0,NULL
+"T1055",NULL,"Process Injection","TA0005","Defense Evasion",0,0,NULL
+"T1055.004","T1055","Asynchronous Procedure Call","TA0005","Defense Evasion",0,0,NULL
+"T1055.001","T1055","Dynamic-link Library Injection","TA0005","Defense Evasion",0,0,NULL
+"T1055.011","T1055","Extra Window Memory Injection","TA0005","Defense Evasion",0,0,NULL
+"T1055.015","T1055","ListPlanting","TA0005","Defense Evasion",0,0,NULL
+"T1055.002","T1055","Portable Executable Injection","TA0005","Defense Evasion",0,0,NULL
+"T1055.009","T1055","Proc Memory","TA0005","Defense Evasion",0,0,NULL
+"T1055.013","T1055","Process Doppelg�nging","TA0005","Defense Evasion",0,0,NULL
+"T1055.012","T1055","Process Hollowing","TA0005","Defense Evasion",0,0,NULL
+"T1055.008","T1055","Ptrace System Calls","TA0005","Defense Evasion",0,0,NULL
+"T1055.003","T1055","Thread Execution Hijacking","TA0005","Defense Evasion",0,0,NULL
+"T1055.005","T1055","Thread Local Storage","TA0005","Defense Evasion",0,0,NULL
+"T1055.014","T1055","VDSO Hijacking","TA0005","Defense Evasion",0,0,NULL
+"T1620",NULL,"Reflective Code Loading","TA0005","Defense Evasion",0,0,NULL
+"T1207",NULL,"Rogue Domain Controller","TA0005","Defense Evasion",0,0,NULL
+"T1014",NULL,"Rootkit","TA0005","Defense Evasion",0,0,NULL
+"T1553",NULL,"Subvert Trust Controls","TA0005","Defense Evasion",0,0,NULL
+"T1553.002","T1553","Code Signing","TA0005","Defense Evasion",0,0,NULL
+"T1553.006","T1553","Code Signing Policy Modification","TA0005","Defense Evasion",0,0,NULL
+"T1553.001","T1553","Gatekeeper Bypass","TA0005","Defense Evasion",0,0,NULL
+"T1553.004","T1553","Install Root Certificate","TA0005","Defense Evasion",0,0,NULL
+"T1553.005","T1553","Mark-of-the-Web Bypass","TA0005","Defense Evasion",0,0,NULL
+"T1553.003","T1553","SIP and Trust Provider Hijacking","TA0005","Defense Evasion",0,0,NULL
+"T1218",NULL,"System Binary Proxy Execution","TA0005","Defense Evasion",0,0,NULL
+"T1218.003","T1218","CMSTP","TA0005","Defense Evasion",0,0,NULL
+"T1218.001","T1218","Compiled HTML File","TA0005","Defense Evasion",0,0,NULL
+"T1218.002","T1218","Control Panel","TA0005","Defense Evasion",0,0,NULL
+"T1218.004","T1218","InstallUtil","TA0005","Defense Evasion",0,0,NULL
+"T1218.013","T1218","Mavinject","TA0005","Defense Evasion",0,0,NULL
+"T1218.014","T1218","MMC","TA0005","Defense Evasion",0,0,NULL
+"T1218.005","T1218","Mshta","TA0005","Defense Evasion",0,0,NULL
+"T1218.007","T1218","Msiexec","TA0005","Defense Evasion",0,0,NULL
+"T1218.008","T1218","Odbcconf","TA0005","Defense Evasion",0,0,NULL
+"T1218.009","T1218","Regsvcs/Regasm","TA0005","Defense Evasion",0,0,NULL
+"T1218.010","T1218","Regsvr32","TA0005","Defense Evasion",0,0,NULL
+"T1218.011","T1218","Rundll32","TA0005","Defense Evasion",0,0,NULL
+"T1218.012","T1218","Verclsid","TA0005","Defense Evasion",0,0,NULL
+"T1216",NULL,"System Script Proxy Execution","TA0005","Defense Evasion",0,0,NULL
+"T1216.001","T1216","PubPrn","TA0005","Defense Evasion",0,0,NULL
+"T1221",NULL,"Template Injection","TA0005","Defense Evasion",0,0,NULL
+"T1205.001","T1205","Port Knocking","TA0005","Defense Evasion",1,0,NULL
+"T1127",NULL,"Trusted Developer Utilities Proxy Execution","TA0005","Defense Evasion",0,0,NULL
+"T1127.001","T1127","MSBuild","TA0005","Defense Evasion",0,0,NULL
+"T1535",NULL,"Unused/Unsupported Cloud Regions","TA0005","Defense Evasion",0,0,NULL
+"T1550",NULL,"Use Alternate Authentication Material","TA0005","Defense Evasion",0,0,NULL
+"T1550.001","T1550","Application Access Token","TA0005","Defense Evasion",0,0,NULL
+"T1550.002","T1550","Pass the Hash","TA0005","Defense Evasion",0,0,NULL
+"T1550.003","T1550","Pass the Ticket","TA0005","Defense Evasion",0,0,NULL
+"T1550.004","T1550","Web Session Cookie","TA0005","Defense Evasion",0,0,NULL
+"T1497",NULL,"Virtualization/Sandbox Evasion","TA0005","Defense Evasion",0,0,NULL
+"T1497.001","T1497","System Checks","TA0005","Defense Evasion",0,0,NULL
+"T1497.003","T1497","Time Based Evasion","TA0005","Defense Evasion",0,0,NULL
+"T1497.002","T1497","User Activity Based Checks","TA0005","Defense Evasion",0,0,NULL
+"T1600",NULL,"Weaken Encryption","TA0005","Defense Evasion",0,0,NULL
+"T1600.002","T1600","Disable Crypto Hardware","TA0005","Defense Evasion",0,0,NULL
+"T1600.001","T1600","Reduce Key Space","TA0005","Defense Evasion",0,0,NULL
+"T1220",NULL,"XSL Script Processing","TA0005","Defense Evasion",0,0,NULL
+"T1557",NULL,"Adversary-in-the-Middle","TA0006","Credential Access",0,0,NULL
+"T1557.002","T1557","ARP Cache Poisoning","TA0006","Credential Access",0,0,NULL
+"T1557.003","T1557","DHCP Spoofing","TA0006","Credential Access",0,0,NULL
+"T1557.001","T1557","LLMNR/NBT-NS Poisoning and SMB Relay","TA0006","Credential Access",0,0,NULL
+"T1555",NULL,"Credentials from Password Stores","TA0006","Credential Access",0,0,NULL
+"T1555.003","T1555","Credentials from Web Browsers","TA0006","Credential Access",0,0,NULL
+"T1555.001","T1555","Keychain","TA0006","Credential Access",0,0,NULL
+"T1555.005","T1555","Password Managers","TA0006","Credential Access",0,0,NULL
+"T1555.002","T1555","Securityd Memory","TA0006","Credential Access",0,0,NULL
+"T1555.004","T1555","Windows Credential Manager","TA0006","Credential Access",0,0,NULL
+"T1212",NULL,"Exploitation for Credential Access","TA0006","Credential Access",0,0,NULL
+"T1187",NULL,"Forced Authentication","TA0006","Credential Access",0,0,NULL
+"T1606",NULL,"Forge Web Credentials","TA0006","Credential Access",0,0,NULL
+"T1606.002","T1606","SAML Tokens","TA0006","Credential Access",0,0,NULL
+"T1606.001","T1606","Web Cookies","TA0006","Credential Access",0,0,NULL
+"T1056",NULL,"Input Capture","TA0006","Credential Access",0,0,NULL
+"T1056.004","T1056","Credential API Hooking","TA0006","Credential Access",0,0,NULL
+"T1056.002","T1056","GUI Input Capture","TA0006","Credential Access",0,0,NULL
+"T1056.001","T1056","Keylogging","TA0006","Credential Access",0,0,NULL
+"T1056.003","T1056","Web Portal Capture","TA0006","Credential Access",0,0,NULL
+"T1556",NULL,"Modify Authentication Process","TA0006","Credential Access",0,0,NULL
+"T1556.001","T1556","Domain Controller Authentication","TA0006","Credential Access",0,0,NULL
+"T1556.004","T1556","Network Device Authentication","TA0006","Credential Access",0,0,NULL
+"T1556.002","T1556","Password Filter DLL","TA0006","Credential Access",0,0,NULL
+"T1556.003","T1556","Pluggable Authentication Modules","TA0006","Credential Access",0,0,NULL
+"T1556.005","T1556","Reversible Encryption","TA0006","Credential Access",0,0,NULL
+"T1111",NULL,"Multi-Factor Authentication Interception","TA0006","Credential Access",0,0,NULL
+"T1621",NULL,"Multi-Factor Authentication Request Generation","TA0006","Credential Access",0,0,NULL
+"T1003",NULL,"OS Credential Dumping","TA0006","Credential Access",0,0,NULL
+"T1003.008","T1003","/etc/passwd and /etc/shadow","TA0006","Credential Access",0,0,NULL
+"T1003.005","T1003","Cached Domain Credentials","TA0006","Credential Access",0,0,NULL
+"T1003.006","T1003","DCSync","TA0006","Credential Access",0,0,NULL
+"T1003.004","T1003","LSA Secrets","TA0006","Credential Access",0,0,NULL
+"T1003.001","T1003","LSASS Memory","TA0006","Credential Access",0,0,NULL
+"T1003.003","T1003","NTDS","TA0006","Credential Access",0,0,NULL
+"T1003.007","T1003","Proc Filesystem","TA0006","Credential Access",0,0,NULL
+"T1003.002","T1003","Security Account Manager","TA0006","Credential Access",0,0,NULL
+"T1528",NULL,"Steal Application Access Token","TA0006","Credential Access",0,0,NULL
+"T1558",NULL,"Steal or Forge Kerberos Tickets","TA0006","Credential Access",0,0,NULL
+"T1558.004","T1558","AS-REP Roasting","TA0006","Credential Access",0,0,NULL
+"T1558.001","T1558","Golden Ticket","TA0006","Credential Access",0,0,NULL
+"T1558.003","T1558","Kerberoasting","TA0006","Credential Access",0,0,NULL
+"T1558.002","T1558","Silver Ticket","TA0006","Credential Access",0,0,NULL
+"T1539",NULL,"Steal Web Session Cookie","TA0006","Credential Access",0,0,NULL
+"T1087",NULL,"Account Discovery","TA0007","Discovery",0,0,NULL
+"T1087.004","T1087","Cloud Account","TA0007","Discovery",0,0,NULL
+"T1087.002","T1087","Domain Account","TA0007","Discovery",0,0,NULL
+"T1087.003","T1087","Email Account","TA0007","Discovery",0,0,NULL
+"T1087.001","T1087","Local Account","TA0007","Discovery",0,0,NULL
+"T1010",NULL,"Application Window Discovery","TA0007","Discovery",0,0,NULL
+"T1217",NULL,"Browser Bookmark Discovery","TA0007","Discovery",0,0,NULL
+"T1580",NULL,"Cloud Infrastructure Discovery","TA0007","Discovery",0,0,NULL
+"T1538",NULL,"Cloud Service Dashboard","TA0007","Discovery",0,0,NULL
+"T1526",NULL,"Cloud Service Discovery","TA0007","Discovery",0,0,NULL
+"T1619",NULL,"Cloud Storage Object Discovery","TA0007","Discovery",0,0,NULL
+"T1622",NULL,"Debugger Evasion","TA0007","Discovery",0,0,NULL
+"T1482",NULL,"Domain Trust Discovery","TA0007","Discovery",0,0,NULL
+"T1083",NULL,"File and Directory Discovery","TA0007","Discovery",0,0,NULL
+"T1615",NULL,"Group Policy Discovery","TA0007","Discovery",0,0,NULL
+"T1046",NULL,"Network Service Discovery","TA0007","Discovery",0,0,NULL
+"T1135",NULL,"Network Share Discovery","TA0007","Discovery",0,0,NULL
+"T1201",NULL,"Password Policy Discovery","TA0007","Discovery",0,0,NULL
+"T1120",NULL,"Peripheral Device Discovery","TA0007","Discovery",0,0,NULL
+"T1040",NULL,"Network Sniffing","TA0006","Credential Access",0,0,"attack-pattern--e3a12395-188d-4051-9a16-ea8e14d07b88"
+"T1040",NULL,"Network Sniffing","TA0007","Discovery",0,0,"attack-pattern--e3a12395-188d-4051-9a16-ea8e14d07b88"
+"T1057",NULL,"Process Discovery","TA0007","Discovery",0,0,NULL
+"T1012",NULL,"Query Registry","TA0007","Discovery",0,0,NULL
+"T1018",NULL,"Remote System Discovery","TA0007","Discovery",0,0,NULL
+"T1518",NULL,"Software Discovery","TA0007","Discovery",0,0,NULL
+"T1518.001","T1518","Security Software Discovery","TA0007","Discovery",0,0,NULL
+"T1082",NULL,"System Information Discovery","TA0007","Discovery",0,0,NULL
+"T1614",NULL,"System Location Discovery","TA0007","Discovery",0,0,NULL
+"T1614.001","T1614","System Language Discovery","TA0007","Discovery",0,0,NULL
+"T1016",NULL,"System Network Configuration Discovery","TA0007","Discovery",0,0,NULL
+"T1016.001","T1016","Internet Connection Discovery","TA0007","Discovery",0,0,NULL
+"T1049",NULL,"System Network Connections Discovery","TA0007","Discovery",0,0,NULL
+"T1033",NULL,"System Owner/User Discovery","TA0007","Discovery",0,0,NULL
+"T1007",NULL,"System Service Discovery","TA0007","Discovery",0,0,NULL
+"T1124",NULL,"System Time Discovery","TA0007","Discovery",0,0,NULL
+"T1497",NULL,"Virtualization/Sandbox Evasion","TA0007","Discovery",0,0,NULL
+"T1497.001","T1497","System Checks","TA0007","Discovery",0,0,NULL
+"T1497.003","T1497","Time Based Evasion","TA0007","Discovery",0,0,NULL
+"T1497.002","T1497","User Activity Based Checks","TA0007","Discovery",0,0,NULL
+"T1210",NULL,"Exploitation of Remote Services","TA0008","Lateral Movement",0,0,NULL
+"T1534",NULL,"Internal Spearphishing","TA0008","Lateral Movement",0,0,NULL
+"T1570",NULL,"Lateral Tool Transfer","TA0008","Lateral Movement",0,0,NULL
+"T1563",NULL,"Remote Service Session Hijacking","TA0008","Lateral Movement",0,0,NULL
+"T1563.002","T1563","RDP Hijacking","TA0008","Lateral Movement",0,0,NULL
+"T1563.001","T1563","SSH Hijacking","TA0008","Lateral Movement",0,0,NULL
+"T1021",NULL,"Remote Services","TA0008","Lateral Movement",0,0,NULL
+"T1021.003","T1021","Distributed Component Object Model","TA0008","Lateral Movement",0,0,NULL
+"T1021.001","T1021","Remote Desktop Protocol","TA0008","Lateral Movement",0,0,NULL
+"T1021.002","T1021","SMB/Windows Admin Shares","TA0008","Lateral Movement",0,0,NULL
+"T1021.004","T1021","SSH","TA0008","Lateral Movement",0,0,NULL
+"T1021.005","T1021","VNC","TA0008","Lateral Movement",0,0,NULL
+"T1021.006","T1021","Windows Remote Management","TA0008","Lateral Movement",0,0,NULL
+"T1091",NULL,"Replication Through Removable Media","TA0008","Lateral Movement",0,0,NULL
+"T1072",NULL,"Software Deployment Tools","TA0008","Lateral Movement",0,0,NULL
+"T1080",NULL,"Taint Shared Content","TA0008","Lateral Movement",0,0,NULL
+"T1550",NULL,"Use Alternate Authentication Material","TA0008","Lateral Movement",0,0,NULL
+"T1550.001","T1550","Application Access Token","TA0008","Lateral Movement",0,0,NULL
+"T1550.002","T1550","Pass the Hash","TA0008","Lateral Movement",0,0,NULL
+"T1550.003","T1550","Pass the Ticket","TA0008","Lateral Movement",0,0,NULL
+"T1550.004","T1550","Web Session Cookie","TA0008","Lateral Movement",0,0,NULL
+"T1557",NULL,"Adversary-in-the-Middle","TA0009","Collection",0,0,NULL
+"T1557.002","T1557","ARP Cache Poisoning","TA0009","Collection",0,0,NULL
+"T1557.003","T1557","DHCP Spoofing","TA0009","Collection",0,0,NULL
+"T1557.001","T1557","LLMNR/NBT-NS Poisoning and SMB Relay","TA0009","Collection",0,0,NULL
+"T1560",NULL,"Archive Collected Data","TA0009","Collection",0,0,NULL
+"T1560.003","T1560","Archive via Custom Method","TA0009","Collection",0,0,NULL
+"T1560.002","T1560","Archive via Library","TA0009","Collection",0,0,NULL
+"T1560.001","T1560","Archive via Utility","TA0009","Collection",0,0,NULL
+"T1123",NULL,"Audio Capture","TA0009","Collection",0,0,NULL
+"T1119",NULL,"Automated Collection","TA0009","Collection",0,0,NULL
+"T1185",NULL,"Browser Session Hijacking","TA0009","Collection",0,0,NULL
+"T1115",NULL,"Clipboard Data","TA0009","Collection",0,0,NULL
+"T1530",NULL,"Data from Cloud Storage Object","TA0009","Collection",0,0,NULL
+"T1602",NULL,"Data from Configuration Repository","TA0009","Collection",0,0,NULL
+"T1602.002","T1602","Network Device Configuration Dump","TA0009","Collection",0,0,NULL
+"T1602.001","T1602","SNMP (MIB Dump)","TA0009","Collection",0,0,NULL
+"T1213",NULL,"Data from Information Repositories","TA0009","Collection",0,0,NULL
+"T1213.003","T1213","Code Repositories","TA0009","Collection",0,0,NULL
+"T1213.001","T1213","Confluence","TA0009","Collection",0,0,NULL
+"T1213.002","T1213","Sharepoint","TA0009","Collection",0,0,NULL
+"T1005",NULL,"Data from Local System","TA0009","Collection",0,0,NULL
+"T1039",NULL,"Data from Network Shared Drive","TA0009","Collection",0,0,NULL
+"T1025",NULL,"Data from Removable Media","TA0009","Collection",0,0,NULL
+"T1074",NULL,"Data Staged","TA0009","Collection",0,0,NULL
+"T1074.001","T1074","Local Data Staging","TA0009","Collection",0,0,NULL
+"T1074.002","T1074","Remote Data Staging","TA0009","Collection",0,0,NULL
+"T1114",NULL,"Email Collection","TA0009","Collection",0,0,NULL
+"T1114.003","T1114","Email Forwarding Rule","TA0009","Collection",0,0,NULL
+"T1114.001","T1114","Local Email Collection","TA0009","Collection",0,0,NULL
+"T1114.002","T1114","Remote Email Collection","TA0009","Collection",0,0,NULL
+"T1056",NULL,"Input Capture","TA0009","Collection",0,0,NULL
+"T1056.004","T1056","Credential API Hooking","TA0009","Collection",0,0,NULL
+"T1056.002","T1056","GUI Input Capture","TA0009","Collection",0,0,NULL
+"T1056.001","T1056","Keylogging","TA0009","Collection",0,0,NULL
+"T1056.003","T1056","Web Portal Capture","TA0009","Collection",0,0,NULL
+"T1113",NULL,"Screen Capture","TA0009","Collection",0,0,NULL
+"T1125",NULL,"Video Capture","TA0009","Collection",0,0,NULL
+"T1071",NULL,"Application Layer Protocol","TA0011","Command and Control",1,0,NULL
+"T1071.004","T1071","DNS","TA0011","Command and Control",1,0,NULL
+"T1071.002","T1071","File Transfer Protocols","TA0011","Command and Control",1,0,NULL
+"T1071.003","T1071","Mail Protocols","TA0011","Command and Control",1,0,NULL
+"T1071.001","T1071","Web Protocols","TA0011","Command and Control",1,0,NULL
+"T1092",NULL,"Communication Through Removable Media","TA0011","Command and Control",1,0,NULL
+"T1132",NULL,"Data Encoding","TA0011","Command and Control",1,0,NULL
+"T1132.002","T1132","Non-Standard Encoding","TA0011","Command and Control",1,0,NULL
+"T1132.001","T1132","Standard Encoding","TA0011","Command and Control",1,0,NULL
+"T1001",NULL,"Data Obfuscation","TA0011","Command and Control",1,0,NULL
+"T1001.001","T1001","Junk Data","TA0011","Command and Control",1,0,NULL
+"T1001.003","T1001","Protocol Impersonation","TA0011","Command and Control",1,0,NULL
+"T1001.002","T1001","Steganography","TA0011","Command and Control",1,0,NULL
+"T1568",NULL,"Dynamic Resolution","TA0011","Command and Control",1,0,NULL
+"T1568.003","T1568","DNS Calculation","TA0011","Command and Control",1,0,NULL
+"T1568.002","T1568","Domain Generation Algorithms","TA0011","Command and Control",1,0,NULL
+"T1568.001","T1568","Fast Flux DNS","TA0011","Command and Control",1,0,NULL
+"T1573",NULL,"Encrypted Channel","TA0011","Command and Control",1,0,NULL
+"T1573.002","T1573","Asymmetric Cryptography","TA0011","Command and Control",1,0,NULL
+"T1573.001","T1573","Symmetric Cryptography","TA0011","Command and Control",1,0,NULL
+"T1008",NULL,"Fallback Channels","TA0011","Command and Control",1,0,NULL
+"T1105",NULL,"Ingress Tool Transfer","TA0011","Command and Control",1,0,NULL
+"T1104",NULL,"Multi-Stage Channels","TA0011","Command and Control",1,0,NULL
+"T1095",NULL,"Non-Application Layer Protocol","TA0011","Command and Control",1,0,NULL
+"T1571",NULL,"Non-Standard Port","TA0011","Command and Control",1,0,NULL
+"T1572",NULL,"Protocol Tunneling","TA0011","Command and Control",1,0,NULL
+"T1090",NULL,"Proxy","TA0011","Command and Control",1,0,NULL
+"T1090.004","T1090","Domain Fronting","TA0011","Command and Control",1,0,NULL
+"T1090.002","T1090","External Proxy","TA0011","Command and Control",1,0,NULL
+"T1090.001","T1090","Internal Proxy","TA0011","Command and Control",1,0,NULL
+"T1090.003","T1090","Multi-hop Proxy","TA0011","Command and Control",1,0,NULL
+"T1219",NULL,"Remote Access Software","TA0011","Command and Control",1,0,NULL
+"T1205.001","T1205","Port Knocking","TA0011","Command and Control",1,0,NULL
+"T1102",NULL,"Web Service","TA0011","Command and Control",1,0,NULL
+"T1102.002","T1102","Bidirectional Communication","TA0011","Command and Control",1,0,NULL
+"T1102.001","T1102","Dead Drop Resolver","TA0011","Command and Control",1,0,NULL
+"T1102.003","T1102","One-Way Communication","TA0011","Command and Control",1,0,NULL
+"T1020",NULL,"Automated Exfiltration","TA0010","Exfiltration",0,0,NULL
+"T1020.001","T1020","Traffic Duplication","TA0010","Exfiltration",0,0,NULL
+"T1030",NULL,"Data Transfer Size Limits","TA0010","Exfiltration",0,0,NULL
+"T1048",NULL,"Exfiltration Over Alternative Protocol","TA0010","Exfiltration",0,0,NULL
+"T1048.002","T1048","Exfiltration Over Asymmetric Encrypted Non-C2 Protocol","TA0010","Exfiltration",0,0,NULL
+"T1048.001","T1048","Exfiltration Over Symmetric Encrypted Non-C2 Protocol","TA0010","Exfiltration",0,0,NULL
+"T1048.003","T1048","Exfiltration Over Unencrypted Non-C2 Protocol","TA0010","Exfiltration",0,0,NULL
+"T1041",NULL,"Exfiltration Over C2 Channel","TA0010","Exfiltration",0,0,NULL
+"T1011",NULL,"Exfiltration Over Other Network Medium","TA0010","Exfiltration",0,0,NULL
+"T1011.001","T1011","Exfiltration Over Bluetooth","TA0010","Exfiltration",0,0,NULL
+"T1052",NULL,"Exfiltration Over Physical Medium","TA0010","Exfiltration",0,0,NULL
+"T1052.001","T1052","Exfiltration over USB","TA0010","Exfiltration",0,0,NULL
+"T1567",NULL,"Exfiltration Over Web Service","TA0010","Exfiltration",0,0,NULL
+"T1567.002","T1567","Exfiltration to Cloud Storage","TA0010","Exfiltration",0,0,NULL
+"T1567.001","T1567","Exfiltration to Code Repository","TA0010","Exfiltration",0,0,NULL
+"T1029",NULL,"Scheduled Transfer","TA0010","Exfiltration",0,0,NULL
+"T1537",NULL,"Transfer Data to Cloud Account","TA0010","Exfiltration",0,0,NULL
+"T1531",NULL,"Account Access Removal","TA0040","Impact",0,0,NULL
+"T1485",NULL,"Data Destruction","TA0040","Impact",0,0,NULL
+"T1486",NULL,"Data Encrypted for Impact","TA0040","Impact",0,0,NULL
+"T1565",NULL,"Data Manipulation","TA0040","Impact",0,0,NULL
+"T1565.003","T1565","Runtime Data Manipulation","TA0040","Impact",0,0,NULL
+"T1565.001","T1565","Stored Data Manipulation","TA0040","Impact",0,0,NULL
+"T1565.002","T1565","Transmitted Data Manipulation","TA0040","Impact",0,0,NULL
+"T1491",NULL,"Defacement","TA0040","Impact",0,0,NULL
+"T1491.002","T1491","External Defacement","TA0040","Impact",0,0,NULL
+"T1491.001","T1491","Internal Defacement","TA0040","Impact",0,0,NULL
+"T1561",NULL,"Disk Wipe","TA0040","Impact",0,0,NULL
+"T1561.001","T1561","Disk Content Wipe","TA0040","Impact",0,0,NULL
+"T1561.002","T1561","Disk Structure Wipe","TA0040","Impact",0,0,NULL
+"T1495",NULL,"Firmware Corruption","TA0040","Impact",0,0,NULL
+"T1490",NULL,"Inhibit System Recovery","TA0040","Impact",0,0,NULL
+"T1489",NULL,"Service Stop","TA0040","Impact",0,0,NULL
+"T1529",NULL,"System Shutdown/Reboot","TA0040","Impact",0,0,NULL
+"T1190",NULL,"Exploit Public-Facing Application","TA0001","Initial Access",0,0,"attack-pattern--3f886f2a-874f-4333-b794-aa6075009b1c"
+"T1133",NULL,"External Remote Services","TA0001","Initial Access",0,0,"attack-pattern--10d51417-ee35-4589-b1ff-b6df1c334e8d"
+"T1078",NULL,"Valid Accounts","TA0001","Initial Access",0,0,"attack-pattern--b17a1a56-e99c-403c-8948-561df0cffe81"
+"T1078.004","T1078","Cloud Accounts","TA0001","Initial Access",0,0,"attack-pattern--f232fa7a-025c-4d43-abc7-318e81a73d65"
+"T1078.001","T1078","Default Accounts","TA0001","Initial Access",0,0,"attack-pattern--6151cbea-819b-455a-9fa6-99a1cc58797d"
+"T1078.002","T1078","Domain Accounts","TA0001","Initial Access",0,0,"attack-pattern--c3d4bdd9-2cfe-4a80-9d0c-07a29ecdce8f"
+"T1078.003","T1078","Local Accounts","TA0001","Initial Access",0,0,"attack-pattern--fdc47f44-dd32-4b99-af5f-209f556f63c2"
+"T1609",NULL,"Container Administration Command","TA0001","Execution",0,0,"attack-pattern--7b50a1d3-4ca7-45d1-989d-a6503f04bfe1"
+"T1610",NULL,"Deploy Container","TA0001","Execution",0,0,"attack-pattern--56e0d8b8-3e25-49dd-9050-3aa252f5aa92"
+"T1053",NULL,"Scheduled Task/Job","TA0001","Execution",0,0,"attack-pattern--35dd844a-b219-4e2b-a6bb-efa9a75995a9"
+"T1053.007","T1053","Container Orchestration Job","TA0001","Execution",0,0,"attack-pattern--1126cab1-c700-412f-a510-61f4937bb096"
+"T1053.003","T1053","Cron","TA0001","Execution",0,0,"attack-pattern--2acf44aa-542f-4366-b4eb-55ef5747759c"
+"T1053.005","T1053","Scheduled Task","TA0001","Execution",0,0,"attack-pattern--005a06c6-14bf-4118-afa0-ebcd8aebb0c9"
+"T1053.006","T1053","Systemd Timers","TA0001","Execution",0,0,"attack-pattern--a542bac9-7bc1-4da7-9a09-96f69e23cc21"
+"T1204",NULL,"User Execution","TA0001","Execution",0,0,"attack-pattern--8c32eb4d-805f-4fc5-bf60-c4d476c131b5"
+"T1204.002","T1204","Malicious File","TA0001","Execution",0,0,"attack-pattern--232b7f21-adf9-4b42-b936-b9d6f7df856e"
+"T1204.003","T1204","Malicious Image","TA0001","Execution",0,0,"attack-pattern--b0c74ef9-c61e-4986-88cb-78da98a355ec"
+"T1204.001","T1204","Malicious Link","TA0001","Execution",0,0,"attack-pattern--ef67e13e-5598-4adc-bdb2-998225874fa9"
+"T1133",NULL,"External Remote Services","TA0003","Persistence",0,0,"attack-pattern--10d51417-ee35-4589-b1ff-b6df1c334e8d"
+"T1525",NULL,"Implant Internal Image","TA0003","Persistence",0,0,"attack-pattern--4fd8a28b-4b3a-4cd6-a8cf-85ba5f824a7f"
+"T1053",NULL,"Scheduled Task/Job","TA0003","Persistence",0,0,"attack-pattern--35dd844a-b219-4e2b-a6bb-efa9a75995a9"
+"T1053.007","T1053","Container Orchestration Job","TA0003","Persistence",0,0,"attack-pattern--1126cab1-c700-412f-a510-61f4937bb096"
+"T1053.003","T1053","Cron","TA0003","Persistence",0,0,"attack-pattern--2acf44aa-542f-4366-b4eb-55ef5747759c"
+"T1053.005","T1053","Scheduled Task","TA0003","Persistence",0,0,"attack-pattern--005a06c6-14bf-4118-afa0-ebcd8aebb0c9"
+"T1053.006","T1053","Systemd Timers","TA0003","Persistence",0,0,"attack-pattern--a542bac9-7bc1-4da7-9a09-96f69e23cc21"
+"T1078",NULL,"Valid Accounts","TA0003","Persistence",0,0,"attack-pattern--b17a1a56-e99c-403c-8948-561df0cffe81"
+"T1078.004","T1078","Cloud Accounts","TA0003","Persistence",0,0,"attack-pattern--f232fa7a-025c-4d43-abc7-318e81a73d65"
+"T1078.001","T1078","Default Accounts","TA0003","Persistence",0,0,"attack-pattern--6151cbea-819b-455a-9fa6-99a1cc58797d"
+"T1078.002","T1078","Domain Accounts","TA0003","Persistence",0,0,"attack-pattern--c3d4bdd9-2cfe-4a80-9d0c-07a29ecdce8f"
+"T1078.003","T1078","Local Accounts","TA0003","Persistence",0,0,"attack-pattern--fdc47f44-dd32-4b99-af5f-209f556f63c2"
+"T1611",NULL,"Escape to Host","TA0004","Privilege Escalation",0,0,"attack-pattern--4a5b7ade-8bb5-4853-84ed-23f262002665"
+"T1068",NULL,"Exploitation for Privilege Escalation","TA0004","Privilege Escalation",0,0,"attack-pattern--b21c3b2d-02e6-45b1-980b-e69051040839"
+"T1053",NULL,"Scheduled Task/Job","TA0004","Privilege Escalation",0,0,"attack-pattern--35dd844a-b219-4e2b-a6bb-efa9a75995a9"
+"T1053.007","T1053","Container Orchestration Job","TA0004","Privilege Escalation",0,0,"attack-pattern--1126cab1-c700-412f-a510-61f4937bb096"
+"T1053.003","T1053","Cron","TA0004","Privilege Escalation",0,0,"attack-pattern--2acf44aa-542f-4366-b4eb-55ef5747759c"
+"T1053.005","T1053","Scheduled Task","TA0004","Privilege Escalation",0,0,"attack-pattern--005a06c6-14bf-4118-afa0-ebcd8aebb0c9"
+"T1053.006","T1053","Systemd Timers","TA0004","Privilege Escalation",0,0,"attack-pattern--a542bac9-7bc1-4da7-9a09-96f69e23cc21"
+"T1078",NULL,"Valid Accounts","TA0004","Privilege Escalation",0,0,"attack-pattern--b17a1a56-e99c-403c-8948-561df0cffe81"
+"T1078.004","T1078","Cloud Accounts","TA0004","Privilege Escalation",0,0,"attack-pattern--f232fa7a-025c-4d43-abc7-318e81a73d65"
+"T1078.001","T1078","Default Accounts","TA0004","Privilege Escalation",0,0,"attack-pattern--6151cbea-819b-455a-9fa6-99a1cc58797d"
+"T1078.002","T1078","Domain Accounts","TA0004","Privilege Escalation",0,0,"attack-pattern--c3d4bdd9-2cfe-4a80-9d0c-07a29ecdce8f"
+"T1078.003","T1078","Local Accounts","TA0004","Privilege Escalation",0,0,"attack-pattern--fdc47f44-dd32-4b99-af5f-209f556f63c2"
+"T1612",NULL,"Build Image on Host","TA0005","Defense Evasion",0,0,"attack-pattern--800f9819-7007-4540-a520-40e655876800"
+"T1610",NULL,"Deploy Container","TA0005","Defense Evasion",0,0,"attack-pattern--56e0d8b8-3e25-49dd-9050-3aa252f5aa92"
+"T1562",NULL,"Impair Defenses","TA0005","Defense Evasion",0,0,"attack-pattern--3d333250-30e4-4a82-9edc-756c68afc529"
+"T1562.008","T1562","Disable Cloud Logs","TA0005","Defense Evasion",0,0,"attack-pattern--cacc40da-4c9e-462c-80d5-fd70a178b12d"
+"T1562.007","T1562","Disable or Modify Cloud Firewall","TA0005","Defense Evasion",0,0,"attack-pattern--77532a55-c283-4cd2-bc5d-2d0b65e9d88c"
+"T1562.004","T1562","Disable or Modify System Firewall","TA0005","Defense Evasion",0,0,"attack-pattern--5372c5fe-f424-4def-bcd5-d3a8e770f07b"
+"T1562.001","T1562","Disable or Modify Tools","TA0005","Defense Evasion",0,0,"attack-pattern--ac08589e-ee59-4935-8667-d845e38fe579"
+"T1562.002","T1562","Disable Windows Event Logging","TA0005","Defense Evasion",0,0,"attack-pattern--4eb28bed-d11a-4641-9863-c2ac017d910a"
+"T1562.010","T1562","Downgrade Attack","TA0005","Defense Evasion",0,0,"attack-pattern--824add00-99a1-4b15-9a2d-6c5683b7b497"
+"T1562.003","T1562","Impair Command History Logging","TA0005","Defense Evasion",0,0,"attack-pattern--8f504411-cb96-4dac-a537-8d2bb7679c59"
+"T1562.006","T1562","Indicator Blocking","TA0005","Defense Evasion",0,0,"attack-pattern--74d2a63f-3c7b-4852-92da-02d8fbab16da"
+"T1562.009","T1562","Safe Mode Boot","TA0005","Defense Evasion",0,0,"attack-pattern--28170e17-8384-415c-8486-2e6b294cb803"
+"T1070",NULL,"Indicator Removal on Host","TA0005","Defense Evasion",0,0,"attack-pattern--799ace7f-e227-4411-baa0-8868704f2a69"
+"T1070.003","T1070","Clear Command History","TA0005","Defense Evasion",0,0,"attack-pattern--3aef9463-9a7a-43ba-8957-a867e07c1e6a"
+"T1070.002","T1070","Clear Linux or Mac System Logs","TA0005","Defense Evasion",0,0,"attack-pattern--2bce5b30-7014-4a5d-ade7-12913fe6ac36"
+"T1070.001","T1070","Clear Windows Event Logs","TA0005","Defense Evasion",0,0,"attack-pattern--6495ae23-3ab4-43c5-a94f-5638a2c31fd2"
+"T1070.004","T1070","File Deletion","TA0005","Defense Evasion",0,0,"attack-pattern--d63a3fb8-9452-4e9d-a60a-54be68d5998c"
+"T1070.005","T1070","Network Share Connection Removal","TA0005","Defense Evasion",0,0,"attack-pattern--a750a9f6-0bde-4bb3-9aae-1e2786e9780c"
+"T1070.006","T1070","Timestomp","TA0005","Defense Evasion",0,0,"attack-pattern--47f2d673-ca62-47e9-929b-1b0be9657611"
+"T1036",NULL,"Masquerading","TA0005","Defense Evasion",0,0,"attack-pattern--42e8de7b-37b2-4258-905a-6897815e58e0"
+"T1036.007","T1036","Double File Extension","TA0005","Defense Evasion",0,0,"attack-pattern--11f29a39-0942-4d62-92b6-fe236cf3066e"
+"T1036.001","T1036","Invalid Code Signature","TA0005","Defense Evasion",0,0,"attack-pattern--b4b7458f-81f2-4d38-84be-1c5ba0167a52"
+"T1036.004","T1036","Masquerade Task or Service","TA0005","Defense Evasion",0,0,"attack-pattern--7bdca9d5-d500-4d7d-8c52-5fd47baf4c0c"
+"T1036.005","T1036","Match Legitimate Name or Location","TA0005","Defense Evasion",0,0,"attack-pattern--1c4e5d32-1fe9-4116-9d9d-59e3925bd6a2"
+"T1036.003","T1036","Rename System Utilities","TA0005","Defense Evasion",0,0,"attack-pattern--bd5b58a4-a52d-4a29-bc0d-3f1d3968eb6b"
+"T1036.002","T1036","Right-to-Left Override","TA0005","Defense Evasion",0,0,"attack-pattern--77eae145-55db-4519-8ae5-77b0c7215d69"
+"T1036.006","T1036","Space after Filename","TA0005","Defense Evasion",0,0,"attack-pattern--e51137a5-1cdc-499e-911a-abaedaa5ac86"
+"T1078",NULL,"Valid Accounts","TA0005","Defense Evasion",0,0,"attack-pattern--b17a1a56-e99c-403c-8948-561df0cffe81"
+"T1078.004","T1078","Cloud Accounts","TA0005","Defense Evasion",0,0,"attack-pattern--f232fa7a-025c-4d43-abc7-318e81a73d65"
+"T1078.001","T1078","Default Accounts","TA0005","Defense Evasion",0,0,"attack-pattern--6151cbea-819b-455a-9fa6-99a1cc58797d"
+"T1078.002","T1078","Domain Accounts","TA0005","Defense Evasion",0,0,"attack-pattern--c3d4bdd9-2cfe-4a80-9d0c-07a29ecdce8f"
+"T1078.003","T1078","Local Accounts","TA0005","Defense Evasion",0,0,"attack-pattern--fdc47f44-dd32-4b99-af5f-209f556f63c2"
+"T1110",NULL,"Brute Force","TA0006","Credential Access",0,0,"attack-pattern--a93494bb-4b80-4ea1-8695-3236a49916fd"
+"T1110.004","T1110","Credential Stuffing","TA0006","Credential Access",0,0,"attack-pattern--b2d03cea-aec1-45ca-9744-9ee583c1e1cc"
+"T1110.002","T1110","Password Cracking","TA0006","Credential Access",0,0,"attack-pattern--1d24cdee-9ea2-4189-b08e-af110bf2435d"
+"T1110.001","T1110","Password Guessing","TA0006","Credential Access",0,0,"attack-pattern--09c4c11e-4fa1-4f8c-8dad-3cf8e69ad119"
+"T1110.003","T1110","Password Spraying","TA0006","Credential Access",0,0,"attack-pattern--692074ae-bb62-4a5e-a735-02cb6bde458c"
+"T1552",NULL,"Unsecured Credentials","TA0006","Credential Access",0,0,"attack-pattern--435dfb86-2697-4867-85b5-2fef496c0517"
+"T1552.003","T1552","Bash History","TA0006","Credential Access",0,0,"attack-pattern--8187bd2a-866f-4457-9009-86b0ddedffa3"
+"T1552.005","T1552","Cloud Instance Metadata API","TA0006","Credential Access",0,0,"attack-pattern--19bf235b-8620-4997-b5b4-94e0659ed7c3"
+"T1552.007","T1552","Container API","TA0006","Credential Access",0,0,"attack-pattern--f8ef3a62-3f44-40a4-abca-761ab235c436"
+"T1552.001","T1552","Credentials In Files","TA0006","Credential Access",0,0,"attack-pattern--837f9164-50af-4ac0-8219-379d8a74cefc"
+"T1552.002","T1552","Credentials in Registry","TA0006","Credential Access",0,0,"attack-pattern--341e222a-a6e3-4f6f-b69c-831d792b1580"
+"T1552.006","T1552","Group Policy Preferences","TA0006","Credential Access",0,0,"attack-pattern--8d7bd4f5-3a89-4453-9c82-2c8894d5655e"
+"T1552.004","T1552","Private Keys","TA0006","Credential Access",0,0,"attack-pattern--60b508a1-6a5e-46b1-821a-9f7b78752abf"
+"T1613",NULL,"Container and Resource Discovery","TA0007","Discovery",0,0,"attack-pattern--0470e792-32f8-46b0-a351-652bc35e9336"
+"T1069",NULL,"Permission Groups Discovery","TA0007","Discovery",0,0,"attack-pattern--15dbf668-795c-41e6-8219-f0447c0e64ce"
+"T1069.003","T1069","Cloud Groups","TA0007","Discovery",0,0,"attack-pattern--16e94db9-b5b1-4cd0-b851-f38fbd0a70f2"
+"T1069.002","T1069","Domain Groups","TA0007","Discovery",0,0,"attack-pattern--2aed01ad-3df3-4410-a8cb-11ea4ded587c"
+"T1069.001","T1069","Local Groups","TA0007","Discovery",0,0,"attack-pattern--a01bf75f-00b2-4568-a58f-565ff9bf202b"
+"T1499",NULL,"Endpoint Denial of Service","TA0040","Impact",0,0,"attack-pattern--c675646d-e204-4aa8-978d-e3d6d65885c4"
+"T1499.003","T1499","Application Exhaustion Flood","TA0040","Impact",0,0,"attack-pattern--18cffc21-3260-437e-80e4-4ab8bf2ba5e9"
+"T1499.004","T1499","Application or System Exploitation","TA0040","Impact",0,0,"attack-pattern--2bee5ffb-7a7a-4119-b1f2-158151b19ac0"
+"T1499.001","T1499","OS Exhaustion Flood","TA0040","Impact",0,0,"attack-pattern--0df05477-c572-4ed6-88a9-47c581f548f7"
+"T1499.002","T1499","Service Exhaustion Flood","TA0040","Impact",0,0,"attack-pattern--38eb0c22-6caf-46ce-8869-5964bd735858"
+"T1498",NULL,"Network Denial of Service","TA0040","Impact",0,0,"attack-pattern--d74c4a7e-ffbf-432f-9365-7ebf1f787cab"
+"T1498.001","T1498","Direct Network Flood","TA0040","Impact",0,0,"attack-pattern--0bda01d5-4c1d-4062-8ee2-6872334383c3"
+"T1498.002","T1498","Reflection Amplification","TA0040","Impact",0,0,"attack-pattern--36b2a1d7-e09e-49bf-b45e-477076c2ec01"
+"T1496",NULL,"Resource Hijacking","TA0040","Impact",0,0,"attack-pattern--cd25c1b4-935c-4f0e-ba8d-552f28bc4783"

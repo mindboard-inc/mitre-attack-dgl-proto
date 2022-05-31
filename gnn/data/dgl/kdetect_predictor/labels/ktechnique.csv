@@ -1,0 +1,36 @@
+label_id,label
+101,Access Kubelet API - TA0007
+102,Access Kubernetes dashboard - TA0007
+103,Access cloud resources - TA0004
+104,Access container service account - TA0006
+105,Access the Kubernetes API server - TA0007
+106,Application exploit - TA0002
+107,Applications credentials in configuration files - TA0008
+108,Backdoor container - TA0003
+109,Clear container logs - TA0005
+110,Cluster internal networking - TA0008
+111,Cluster-admin binding - TA0004
+112,Compromised images in registry - TA0001
+113,Container service account - TA0008
+114,CoreDNS poisoning - TA0008
+115,Data destruction - TA0040
+116,Delete Kubernetes events - TA0005
+117,Denial of service - TA0040
+118,Exec into container - TA0002
+119,Exposed sensitive interfaces - TA0001
+120,Kubernetes CronJob - TA0003
+121,List Kubernetes secrets - TA0006
+122,Malicious admission controller - TA0003-TA0006
+123,Mount service principal - TA0006
+124,Network mapping - TA0007
+125,New container - TA0002
+126,Pod / container name similarity - TA0005
+127,Privileged container - TA0004
+128,Resource hijacking - TA0040
+129,SSH server running inside container - TA0002
+130,Sidecar injection - TA0002
+131,Using cloud credentials - TA0001
+132,Vulnerable application - TA0001
+133,Writable hostPath mount - TA0003
+134,Writable volume mounts on the host - TA0008
+135,hostPath mount - TA0004

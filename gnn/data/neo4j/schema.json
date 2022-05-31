@@ -1,0 +1,1395 @@
+{
+  "version": "0.1.2-beta.2",
+  "graph": {
+    "nodes": [
+      {
+        "id": "n1",
+        "position": {
+          "x": -187.28151259152025,
+          "y": -22.85695670159808
+        },
+        "caption": "kmeasure"
+      },
+      {
+        "id": "n2",
+        "position": {
+          "x": 122.46902447768201,
+          "y": -22.85695670159808
+        },
+        "caption": "ktechnique"
+      },
+      {
+        "id": "n3",
+        "position": {
+          "x": -211.7623299592024,
+          "y": 432.9992630837664
+        },
+        "caption": "m_data_source"
+      },
+      {
+        "id": "n4",
+        "position": {
+          "x": 644.8368334052551,
+          "y": 31.07152164920096
+        },
+        "caption": "m_software"
+      },
+      {
+        "id": "n5",
+        "position": {
+          "x": 494.9907800284046,
+          "y": -80.68577430931064
+        },
+        "caption": "m_actor"
+      },
+      {
+        "id": "n6",
+        "position": {
+          "x": -10.013124182862668,
+          "y": 257.13210647934943
+        },
+        "caption": "m_data_component"
+      },
+      {
+        "id": "n7",
+        "position": {
+          "x": 224.6002926487182,
+          "y": 381.2103064410487
+        },
+        "caption": "vulnerability"
+      },
+      {
+        "id": "n8",
+        "position": {
+          "x": 461.36241605423095,
+          "y": 219.73821684387238
+        },
+        "caption": "m_technique"
+      },
+      {
+        "id": "n9",
+        "position": {
+          "x": 333.0052425398525,
+          "y": -132.73811811808264
+        },
+        "caption": "m_tactic"
+      },
+      {
+        "id": "n10",
+        "position": {
+          "x": -48.19673497948012,
+          "y": -132.73811811808264
+        },
+        "caption": "kobs_state"
+      }
+    ],
+    "relationships": [
+      {
+        "id": "n6",
+        "type": "related_to",
+        "fromId": "n6",
+        "toId": "n3"
+      },
+      {
+        "id": "n7",
+        "type": "enables",
+        "fromId": "n7",
+        "toId": "n2"
+      },
+      {
+        "id": "n8",
+        "type": "related_to",
+        "fromId": "n7",
+        "toId": "n3"
+      },
+      {
+        "id": "n9",
+        "type": "detects",
+        "fromId": "n6",
+        "toId": "n2"
+      },
+      {
+        "id": "n11",
+        "type": "overloads",
+        "fromId": "n2",
+        "toId": "n8"
+      },
+      {
+        "id": "n12",
+        "type": "sub-technique",
+        "fromId": "n8",
+        "toId": "n8"
+      },
+      {
+        "id": "n13",
+        "type": "uses",
+        "fromId": "n5",
+        "toId": "n8"
+      },
+      {
+        "id": "n14",
+        "type": "uses",
+        "fromId": "n4",
+        "toId": "n8"
+      },
+      {
+        "id": "n15",
+        "type": "belongs-to",
+        "fromId": "n2",
+        "toId": "n9"
+      },
+      {
+        "id": "n16",
+        "type": "belongs-to",
+        "fromId": "n8",
+        "toId": "n9"
+      },
+      {
+        "id": "n18",
+        "type": "enables",
+        "fromId": "n7",
+        "toId": "n8"
+      },
+      {
+        "id": "n19",
+        "type": "features",
+        "fromId": "n10",
+        "toId": "n1"
+      },
+      {
+        "id": "n20",
+        "type": "detects",
+        "fromId": "n10",
+        "toId": "n2"
+      }
+    ]
+  },
+  "dataModel": {
+    "fileModel": {
+      "fileSchemas": {
+        "actor.csv": {
+          "expanded": false,
+          "fields": [
+            {
+              "name": "id",
+              "type": "string",
+              "sample": "intrusion-set--0bbdf25b-30ff-4894-a1cd-49260d0dd2d9",
+              "include": true
+            },
+            {
+              "name": "name",
+              "type": "string",
+              "sample": "APT3",
+              "include": true
+            },
+            {
+              "name": "desc",
+              "type": "string",
+              "sample": "External references: 14 - Revoked state: False",
+              "include": true
+            }
+          ]
+        },
+        "asset.csv": {
+          "expanded": false,
+          "fields": [
+            {
+              "name": "id",
+              "type": "string",
+              "sample": "x-mitre-data-source--4523e7f3-8de2-4078-96f8-1227eb537159",
+              "include": true
+            },
+            {
+              "name": "name",
+              "type": "string",
+              "sample": "Sensor Health",
+              "include": true
+            },
+            {
+              "name": "desc",
+              "type": "string",
+              "sample": "Information from host telemetry providing insights about system status, errors, or other notable functional activity",
+              "include": true
+            }
+          ]
+        },
+        "kmeasure.csv": {
+          "expanded": false,
+          "fields": [
+            {
+              "name": "id",
+              "type": "string",
+              "sample": "mact-7b411daa-2993-46f7-9883-88ed9410a66c",
+              "include": true
+            },
+            {
+              "name": "name",
+              "type": "string",
+              "sample": "Connectivity latency container scope",
+              "include": true
+            },
+            {
+              "name": "kmval",
+              "type": "string",
+              "sample": "0.1",
+              "include": true
+            }
+          ]
+        },
+        "kobs_state.csv": {
+          "expanded": false,
+          "fields": [
+            {
+              "name": "id",
+              "type": "string",
+              "sample": "obf-24660362-fa61-411c-9f82-8f6e107b1b2c",
+              "include": true
+            },
+            {
+              "name": "name",
+              "type": "string",
+              "sample": "target_delete_kubernetes_events",
+              "include": true
+            }
+          ]
+        },
+        "ktechnique.csv": {
+          "expanded": false,
+          "fields": [
+            {
+              "name": "id",
+              "type": "string",
+              "sample": "ktech-24660362-fa61-411c-9f82-8f6e107b1b2c",
+              "include": true
+            },
+            {
+              "name": "name",
+              "type": "string",
+              "sample": "Delete Kubernetes events",
+              "include": true
+            }
+          ]
+        },
+        "observed_fact.csv": {
+          "expanded": false,
+          "fields": [
+            {
+              "name": "id",
+              "type": "string",
+              "sample": "x-mitre-data-component--85a533a4-5fa4-4dba-b45d-f0717bedd6e6",
+              "include": true
+            },
+            {
+              "name": "name",
+              "type": "string",
+              "sample": "Host Status",
+              "include": true
+            },
+            {
+              "name": "desc",
+              "type": "string",
+              "sample": "Logging, messaging, and other artifacts highlighting the health of host sensors (ex: metrics, errors, and/or exceptions from logging applications)",
+              "include": true
+            }
+          ]
+        },
+        "recommendation.csv": {
+          "expanded": false,
+          "fields": [
+            {
+              "name": "id",
+              "type": "string",
+              "sample": "course-of-action--d4fd04e0-d1a4-4b5a-a5bb-16683cdbcce2",
+              "include": true
+            },
+            {
+              "name": "name",
+              "type": "string",
+              "sample": "External Remote Services Mitigation",
+              "include": true
+            },
+            {
+              "name": "desc",
+              "type": "string",
+              "sample": "Limit access to remote services through centrally managed concentrators such as VPNs and other managed remote access systems. Deny direct remote access to internal systems through the use of network proxies, gateways, and firewalls. Disable or block remotely available services such as [Windows Remote Management](https://attack.mitre.org/techniques/T1028). Use strong two-factor or multi-factor authentication for remote service accounts to mitigate an adversary's ability to leverage stolen credentials, but be aware of [Two-Factor Authentication Interception](https://attack.mitre.org/techniques/T1111) techniques for some two-factor authentication implementations.",
+              "include": true
+            }
+          ]
+        },
+        "software.csv": {
+          "expanded": false,
+          "fields": [
+            {
+              "name": "id",
+              "type": "string",
+              "sample": "malware--b8fdef82-d2cf-4948-8949-6466357b1be1",
+              "include": true
+            },
+            {
+              "name": "name",
+              "type": "string",
+              "sample": "Calisto",
+              "include": true
+            },
+            {
+              "name": "desc",
+              "type": "string",
+              "sample": "[Calisto](https://attack.mitre.org/software/S0274) is a macOS Trojan that opens a backdoor on the compromised machine. [Calisto](https://attack.mitre.org/software/S0274) is believed to have first been developed in 2016. (Citation: Securelist Calisto July 2018) (Citation: Symantec Calisto July 2018)",
+              "include": true
+            }
+          ]
+        },
+        "tactic.csv": {
+          "expanded": false,
+          "fields": [
+            {
+              "name": "id",
+              "type": "string",
+              "sample": "TA0043",
+              "include": true
+            },
+            {
+              "name": "name",
+              "type": "string",
+              "sample": "Reconnaissance",
+              "include": true
+            }
+          ]
+        },
+        "technique.csv": {
+          "expanded": false,
+          "fields": [
+            {
+              "name": "id",
+              "type": "string",
+              "sample": "attack-pattern--a93494bb-4b80-4ea1-8695-3236a49916fd",
+              "include": true
+            },
+            {
+              "name": "name",
+              "type": "string",
+              "sample": "Brute Force",
+              "include": true
+            },
+            {
+              "name": "desc",
+              "type": "string",
+              "sample": "Adversaries may use brute force techniques to gain access to accounts when passwords are unknown or when password hashes are obtained. Without knowledge of the password for an account or set of accounts, an adversary may systematically guess the password using a repetitive or iterative mechanism. Brute forcing passwords can take place via interaction with a service that will check the validity of those credentials or offline against previously acquired credential data, such as password hashes.  Brute forcing credentials may take place at various points during a breach. For example, adversaries may attempt to brute force access to [Valid Accounts](https://attack.mitre.org/techniques/T1078) within a victim environment leveraging knowledge gathered from other post-compromise behaviors such as [OS Credential Dumping](https://attack.mitre.org/techniques/T1003), [Account Discovery](https://attack.mitre.org/techniques/T1087), or [Password Policy Discovery](https://attack.mitre.org/techniques/T1201). Adversaries may also combine brute forcing activity with behaviors such as [External Remote Services](https://attack.mitre.org/techniques/T1133) as part of Initial Access.",
+              "include": true
+            }
+          ]
+        },
+        "technique_k8s.csv": {
+          "expanded": false,
+          "fields": [
+            {
+              "name": "id",
+              "type": "string",
+              "sample": "attack-pattern--56e0d8b8-3e25-49dd-9050-3aa252f5aa92",
+              "include": true
+            },
+            {
+              "name": "name",
+              "type": "string",
+              "sample": "Deploy Container",
+              "include": true
+            },
+            {
+              "name": "m_id",
+              "type": "string",
+              "sample": "T1610",
+              "include": true
+            }
+          ]
+        },
+        "belongs_to.csv": {
+          "expanded": false,
+          "fields": [
+            {
+              "name": "m_ktech_id",
+              "type": "string",
+              "sample": "attack-pattern--e51137a5-1cdc-499e-911a-abaedaa5ac86",
+              "include": true
+            },
+            {
+              "name": "tactic_id",
+              "type": "string",
+              "sample": "TA0005",
+              "include": true
+            }
+          ]
+        },
+        "detects.csv": {
+          "expanded": false,
+          "fields": [
+            {
+              "name": "id",
+              "type": "string",
+              "sample": "relationship--74dbd1f0-759a-46a1-a598-5c76b2035aef",
+              "include": true
+            },
+            {
+              "name": "source_id",
+              "type": "string",
+              "sample": "x-mitre-data-component--85a533a4-5fa4-4dba-b45d-f0717bedd6e6",
+              "include": true
+            },
+            {
+              "name": "target_id",
+              "type": "string",
+              "sample": "attack-pattern--18cffc21-3260-437e-80e4-4ab8bf2ba5e9",
+              "include": true
+            }
+          ]
+        },
+        "features.csv": {
+          "expanded": false,
+          "fields": [
+            {
+              "name": "kobs_id",
+              "type": "string",
+              "sample": "obf-686b23f5-bcce-4c68-a6e5-fcf31a7f6ed8",
+              "include": true
+            },
+            {
+              "name": "kmeasure_id",
+              "type": "string",
+              "sample": "mact-9a9885eb-589d-4836-8902-a2266e628652",
+              "include": true
+            }
+          ]
+        },
+        "kbelongs_to.csv": {
+          "expanded": false,
+          "fields": [
+            {
+              "name": "ktech_id",
+              "type": "string",
+              "sample": "ktech-1ccba6a5-ff26-4306-bd58-c652533540e6",
+              "include": true
+            },
+            {
+              "name": "m_tactic_id",
+              "type": "string",
+              "sample": "TA0004",
+              "include": true
+            }
+          ]
+        },
+        "kdetects.csv": {
+          "expanded": false,
+          "fields": [
+            {
+              "name": "kobs_id",
+              "type": "string",
+              "sample": "obf-5e328d1a-c14d-4031-99c0-d107731563e3",
+              "include": true
+            },
+            {
+              "name": "ktech_id",
+              "type": "string",
+              "sample": "ktech-5e328d1a-c14d-4031-99c0-d107731563e3",
+              "include": true
+            }
+          ]
+        },
+        "mitigates.csv": {
+          "expanded": false,
+          "fields": [
+            {
+              "name": "id",
+              "type": "string",
+              "sample": "relationship--a93e5f9f-5c8c-4832-93db-a6c180840a43",
+              "include": true
+            },
+            {
+              "name": "source_id",
+              "type": "string",
+              "sample": "course-of-action--d4fd04e0-d1a4-4b5a-a5bb-16683cdbcce2",
+              "include": true
+            },
+            {
+              "name": "target_id",
+              "type": "string",
+              "sample": "attack-pattern--10d51417-ee35-4589-b1ff-b6df1c334e8d",
+              "include": true
+            }
+          ]
+        },
+        "relates_to.csv": {
+          "expanded": false,
+          "fields": [
+            {
+              "name": "id",
+              "type": "string",
+              "sample": "85a533a4-5fa4-4dba-b45d-f0717bedd6e64523e7f3-8de2-4078-96f8-1227eb537159",
+              "include": true
+            },
+            {
+              "name": "source_id",
+              "type": "string",
+              "sample": "x-mitre-data-component--85a533a4-5fa4-4dba-b45d-f0717bedd6e6",
+              "include": true
+            },
+            {
+              "name": "target_id",
+              "type": "string",
+              "sample": "x-mitre-data-source--4523e7f3-8de2-4078-96f8-1227eb537159",
+              "include": true
+            }
+          ]
+        },
+        "subtechnique_of.csv": {
+          "expanded": false,
+          "fields": [
+            {
+              "name": "id",
+              "type": "string",
+              "sample": "relationship--e7c8615b-2dd4-42a9-9535-2deed30ea8d7",
+              "include": true
+            },
+            {
+              "name": "source_id",
+              "type": "string",
+              "sample": "attack-pattern--f3d95a1f-bba2-44ce-9af7-37866cd63fd0",
+              "include": true
+            },
+            {
+              "name": "target_id",
+              "type": "string",
+              "sample": "attack-pattern--35dd844a-b219-4e2b-a6bb-efa9a75995a9",
+              "include": true
+            }
+          ]
+        },
+        "uses.csv": {
+          "expanded": false,
+          "fields": [
+            {
+              "name": "id",
+              "type": "string",
+              "sample": "relationship--a9c1c589-b5c6-4231-982f-cae0aa41f349",
+              "include": true
+            },
+            {
+              "name": "source_id",
+              "type": "string",
+              "sample": "malware--b8fdef82-d2cf-4948-8949-6466357b1be1",
+              "include": true
+            },
+            {
+              "name": "target_id",
+              "type": "string",
+              "sample": "attack-pattern--d63a3fb8-9452-4e9d-a60a-54be68d5998c",
+              "include": true
+            }
+          ]
+        },
+        "tactics.csv": {
+          "expanded": false,
+          "fields": [
+            {
+              "name": "id",
+              "type": "string",
+              "sample": "TA0043",
+              "include": true
+            },
+            {
+              "name": "name",
+              "type": "string",
+              "sample": "Reconnaissance",
+              "include": true
+            }
+          ]
+        }
+      }
+    },
+    "graphModel": {
+      "nodeSchemas": {
+        "n1": {
+          "label": "kmeasure",
+          "additionLabels": [],
+          "labelProperties": [],
+          "properties": [
+            {
+              "property": "id",
+              "type": "string",
+              "identifier": "fae7ba9e-dd9f-4a3c-a70c-dc2263df2875"
+            },
+            {
+              "property": "name",
+              "type": "string",
+              "identifier": "33f26c92-b249-4c41-994c-ec437c17f356"
+            },
+            {
+              "property": "kmval",
+              "type": "float",
+              "identifier": "299456da-2acc-47b8-ba59-cd746823d244"
+            }
+          ],
+          "key": {
+            "properties": [
+              "fae7ba9e-dd9f-4a3c-a70c-dc2263df2875"
+            ],
+            "name": ""
+          }
+        },
+        "n2": {
+          "label": "ktechnique",
+          "additionLabels": [],
+          "labelProperties": [],
+          "properties": [
+            {
+              "property": "id",
+              "type": "string",
+              "identifier": "361386bd-bce9-4f50-ad99-c8255cb074dc"
+            },
+            {
+              "property": "name",
+              "type": "string",
+              "identifier": "0f2c3ef2-6a5c-443e-a94d-774f4e4f7160"
+            }
+          ],
+          "key": {
+            "properties": [
+              "361386bd-bce9-4f50-ad99-c8255cb074dc"
+            ],
+            "name": ""
+          }
+        },
+        "n3": {
+          "label": "m_data_source",
+          "additionLabels": [],
+          "labelProperties": [],
+          "properties": [
+            {
+              "property": "id",
+              "type": "string",
+              "identifier": "153d75ad-c6b2-4daa-ba02-7366eb9f255c"
+            },
+            {
+              "property": "name",
+              "type": "string",
+              "identifier": "90d313ae-6c5d-4d11-8865-421ed3bf7052"
+            },
+            {
+              "property": "desc",
+              "type": "string",
+              "identifier": "da9e2032-d5ca-4ab9-ab1e-f49f8a2f5246"
+            }
+          ],
+          "key": {
+            "properties": [
+              "153d75ad-c6b2-4daa-ba02-7366eb9f255c"
+            ],
+            "name": ""
+          }
+        },
+        "n4": {
+          "label": "m_software",
+          "additionLabels": [],
+          "labelProperties": [],
+          "properties": [
+            {
+              "property": "id",
+              "type": "string",
+              "identifier": "bd4a8208-95d4-4c53-8da4-640d86186ed8"
+            },
+            {
+              "property": "name",
+              "type": "string",
+              "identifier": "527d30dc-3c3d-4df1-a59b-fcde41efc454"
+            },
+            {
+              "property": "desc",
+              "type": "string",
+              "identifier": "5a20ff6c-54e3-4f64-b9a1-5233cb9147f1"
+            }
+          ],
+          "key": {
+            "properties": [
+              "bd4a8208-95d4-4c53-8da4-640d86186ed8"
+            ],
+            "name": ""
+          }
+        },
+        "n5": {
+          "label": "m_actor",
+          "additionLabels": [],
+          "labelProperties": [],
+          "properties": [
+            {
+              "property": "id",
+              "type": "string",
+              "identifier": "d134bc1d-298b-426e-9ae7-df05931b611f"
+            },
+            {
+              "property": "name",
+              "type": "string",
+              "identifier": "90d1f8d9-3e4c-49fc-aad5-3de81ba1292b"
+            },
+            {
+              "property": "desc",
+              "type": "string",
+              "identifier": "8a7069fa-f4cc-4faf-b9eb-4c0a203b0d9d"
+            }
+          ],
+          "key": {
+            "properties": [
+              "d134bc1d-298b-426e-9ae7-df05931b611f"
+            ],
+            "name": ""
+          }
+        },
+        "n6": {
+          "label": "m_data_component",
+          "additionLabels": [],
+          "labelProperties": [],
+          "properties": [
+            {
+              "property": "id",
+              "type": "string",
+              "identifier": "a6340a69-8af7-49f3-8e23-b5ed9ed36880"
+            },
+            {
+              "property": "name",
+              "type": "string",
+              "identifier": "d7d09f61-df52-4c01-a55b-badb621b7fcc"
+            },
+            {
+              "property": "desc",
+              "type": "string",
+              "identifier": "ef57611f-0ecd-4f5e-8ce9-c038b6e64d45"
+            }
+          ],
+          "key": {
+            "properties": [
+              "a6340a69-8af7-49f3-8e23-b5ed9ed36880"
+            ],
+            "name": ""
+          }
+        },
+        "n7": {
+          "label": "vulnerability",
+          "additionLabels": [],
+          "labelProperties": [],
+          "properties": [],
+          "key": {
+            "properties": [],
+            "name": ""
+          }
+        },
+        "n8": {
+          "label": "m_technique",
+          "additionLabels": [],
+          "labelProperties": [],
+          "properties": [
+            {
+              "property": "id",
+              "type": "string",
+              "identifier": "67e8abfc-6b4b-462f-abbd-dfb14f03f340"
+            },
+            {
+              "property": "name",
+              "type": "string",
+              "identifier": "b7cd5136-9361-4c57-9068-6e60a106e5c7"
+            },
+            {
+              "property": "m_id",
+              "type": "string",
+              "identifier": "d77cc361-7ef2-4a3f-8da4-739ece77bc91"
+            }
+          ],
+          "key": {
+            "properties": [
+              "67e8abfc-6b4b-462f-abbd-dfb14f03f340"
+            ],
+            "name": ""
+          }
+        },
+        "n9": {
+          "label": "m_tactic",
+          "additionLabels": [],
+          "labelProperties": [],
+          "properties": [
+            {
+              "property": "id",
+              "type": "string",
+              "identifier": "037bb004-cd05-480d-bc56-b4bd947614d6"
+            },
+            {
+              "property": "name",
+              "type": "string",
+              "identifier": "c3155962-826c-4638-8ad3-beb29e7af7e3"
+            }
+          ],
+          "key": {
+            "properties": [
+              "037bb004-cd05-480d-bc56-b4bd947614d6"
+            ],
+            "name": ""
+          }
+        },
+        "n10": {
+          "label": "kobs_state",
+          "additionLabels": [],
+          "labelProperties": [],
+          "properties": [
+            {
+              "property": "id",
+              "type": "string",
+              "identifier": "fee8abb6-aabe-47b5-9eb5-3d4424362672"
+            },
+            {
+              "property": "name",
+              "type": "string",
+              "identifier": "4767dcd8-ad8b-41ea-8df0-b2c6db8441af"
+            }
+          ],
+          "key": {
+            "properties": [
+              "fee8abb6-aabe-47b5-9eb5-3d4424362672"
+            ],
+            "name": ""
+          }
+        }
+      },
+      "relationshipSchemas": {
+        "n6": {
+          "type": "related_to",
+          "sourceNodeSchema": "n6",
+          "targetNodeSchema": "n3",
+          "properties": [
+            {
+              "property": "id",
+              "type": "string",
+              "identifier": "eccce42e-5ee1-4322-bd9f-f4b197c61385"
+            },
+            {
+              "property": "source_id",
+              "type": "string",
+              "identifier": "9c2d6584-a2a3-4b4c-a1f8-4c75855f0a28"
+            },
+            {
+              "property": "target_id",
+              "type": "string",
+              "identifier": "278889bb-e89a-4748-bd21-2892f4149788"
+            }
+          ]
+        },
+        "n7": {
+          "type": "enables",
+          "sourceNodeSchema": "n7",
+          "targetNodeSchema": "n2",
+          "properties": []
+        },
+        "n8": {
+          "type": "related_to",
+          "sourceNodeSchema": "n7",
+          "targetNodeSchema": "n3",
+          "properties": []
+        },
+        "n9": {
+          "type": "detects",
+          "sourceNodeSchema": "n6",
+          "targetNodeSchema": "n2",
+          "properties": [
+            {
+              "property": "id",
+              "type": "string",
+              "identifier": "d5dd1d8a-0684-4b3a-af33-2acaccc0ccb4"
+            },
+            {
+              "property": "source_id",
+              "type": "string",
+              "identifier": "3209bcde-7bbf-463e-a542-169d1f9ccd54"
+            },
+            {
+              "property": "target_id",
+              "type": "string",
+              "identifier": "cc3719f4-44fb-49ab-93ee-aef372da818f"
+            }
+          ]
+        },
+        "n11": {
+          "type": "overloads",
+          "sourceNodeSchema": "n2",
+          "targetNodeSchema": "n8",
+          "properties": []
+        },
+        "n12": {
+          "type": "sub-technique",
+          "sourceNodeSchema": "n8",
+          "targetNodeSchema": "n8",
+          "properties": [
+            {
+              "property": "id",
+              "type": "string",
+              "identifier": "70630fda-0614-4e54-89b8-c035346ef0a9"
+            },
+            {
+              "property": "source_id",
+              "type": "string",
+              "identifier": "4e44f142-3e7d-472e-b3aa-116ed71a0a91"
+            },
+            {
+              "property": "target_id",
+              "type": "string",
+              "identifier": "b0eb3a5b-da7e-4bb7-85a9-268ecdf9b226"
+            }
+          ]
+        },
+        "n13": {
+          "type": "uses",
+          "sourceNodeSchema": "n5",
+          "targetNodeSchema": "n8",
+          "properties": []
+        },
+        "n14": {
+          "type": "uses",
+          "sourceNodeSchema": "n4",
+          "targetNodeSchema": "n8",
+          "properties": [
+            {
+              "property": "id",
+              "type": "string",
+              "identifier": "390b6889-8822-4ab8-bd9b-b0082e6732db"
+            },
+            {
+              "property": "source_id",
+              "type": "string",
+              "identifier": "7043ace0-7253-4a00-80c2-db4b71178276"
+            },
+            {
+              "property": "target_id",
+              "type": "string",
+              "identifier": "bf997a27-b32a-4749-87fb-99db4cd94b88"
+            }
+          ]
+        },
+        "n15": {
+          "type": "belongs-to",
+          "sourceNodeSchema": "n2",
+          "targetNodeSchema": "n9",
+          "properties": []
+        },
+        "n16": {
+          "type": "belongs-to",
+          "sourceNodeSchema": "n8",
+          "targetNodeSchema": "n9",
+          "properties": [
+            {
+              "property": "m_ktech_id",
+              "type": "string",
+              "identifier": "1c3e3304-5c05-4ba2-9d74-19ef36557d59"
+            },
+            {
+              "property": "tactic_id",
+              "type": "string",
+              "identifier": "281aaa40-2046-47ed-bc2d-0a8b0d00564f"
+            }
+          ]
+        },
+        "n18": {
+          "type": "enables",
+          "sourceNodeSchema": "n7",
+          "targetNodeSchema": "n8",
+          "properties": []
+        },
+        "n19": {
+          "type": "features",
+          "sourceNodeSchema": "n10",
+          "targetNodeSchema": "n1",
+          "properties": [
+            {
+              "property": "kobs_id",
+              "type": "string",
+              "identifier": "d081eaae-22ce-4070-ba6e-e27f920b25fc"
+            },
+            {
+              "property": "kmeasure_id",
+              "type": "string",
+              "identifier": "0d4fb2a7-1085-4d5e-acf8-b4a98c79fc79"
+            }
+          ]
+        },
+        "n20": {
+          "type": "detects",
+          "sourceNodeSchema": "n10",
+          "targetNodeSchema": "n2",
+          "properties": [
+            {
+              "property": "kobs_id",
+              "type": "string",
+              "identifier": "868b2658-9649-42f0-8796-10a2792ee7bf"
+            },
+            {
+              "property": "ktech_id",
+              "type": "string",
+              "identifier": "d712f25f-1416-46fa-a3d2-ee4855d3820c"
+            }
+          ]
+        }
+      }
+    },
+    "mappingModel": {
+      "nodeMappings": {
+        "n1": {
+          "nodeSchema": "n1",
+          "fileSchema": "kmeasure.csv",
+          "mappings": [
+            {
+              "field": "id"
+            },
+            {
+              "field": "name"
+            },
+            {
+              "field": "kmval"
+            }
+          ]
+        },
+        "n2": {
+          "nodeSchema": "n2",
+          "fileSchema": "ktechnique.csv",
+          "mappings": [
+            {
+              "field": "id"
+            },
+            {
+              "field": "name"
+            }
+          ]
+        },
+        "n3": {
+          "nodeSchema": "n3",
+          "fileSchema": "asset.csv",
+          "mappings": [
+            {
+              "field": "id"
+            },
+            {
+              "field": "name"
+            },
+            {
+              "field": "desc"
+            }
+          ]
+        },
+        "n4": {
+          "nodeSchema": "n4",
+          "fileSchema": "software.csv",
+          "mappings": [
+            {
+              "field": "id"
+            },
+            {
+              "field": "name"
+            },
+            {
+              "field": "desc"
+            }
+          ]
+        },
+        "n5": {
+          "nodeSchema": "n5",
+          "fileSchema": "actor.csv",
+          "mappings": [
+            {
+              "field": "id"
+            },
+            {
+              "field": "name"
+            },
+            {
+              "field": "desc"
+            }
+          ]
+        },
+        "n6": {
+          "nodeSchema": "n6",
+          "fileSchema": "observed_fact.csv",
+          "mappings": [
+            {
+              "field": "id"
+            },
+            {
+              "field": "name"
+            },
+            {
+              "field": "desc"
+            }
+          ]
+        },
+        "n7": {
+          "nodeSchema": "n7",
+          "mappings": []
+        },
+        "n8": {
+          "nodeSchema": "n8",
+          "fileSchema": "technique_k8s.csv",
+          "mappings": [
+            {
+              "field": "id"
+            },
+            {
+              "field": "name"
+            },
+            {
+              "field": "m_id"
+            }
+          ]
+        },
+        "n9": {
+          "nodeSchema": "n9",
+          "fileSchema": "tactic.csv",
+          "mappings": [
+            {
+              "field": "id"
+            },
+            {
+              "field": "name"
+            }
+          ]
+        },
+        "n10": {
+          "nodeSchema": "n10",
+          "fileSchema": "kobs_state.csv",
+          "mappings": [
+            {
+              "field": "id"
+            },
+            {
+              "field": "name"
+            }
+          ]
+        }
+      },
+      "relationshipMappings": {
+        "n6": {
+          "relationshipSchema": "n6",
+          "mappings": [
+            {
+              "field": "id"
+            },
+            {
+              "field": "source_id"
+            },
+            {
+              "field": "target_id"
+            }
+          ],
+          "sourceMappings": [
+            {
+              "field": "source_id"
+            }
+          ],
+          "targetMappings": [
+            {
+              "field": "target_id"
+            }
+          ],
+          "fileSchema": "relates_to.csv"
+        },
+        "n7": {
+          "relationshipSchema": "n7",
+          "mappings": [],
+          "sourceMappings": [],
+          "targetMappings": []
+        },
+        "n8": {
+          "relationshipSchema": "n8",
+          "mappings": [],
+          "sourceMappings": [],
+          "targetMappings": []
+        },
+        "n9": {
+          "relationshipSchema": "n9",
+          "mappings": [
+            {
+              "field": "id"
+            },
+            {
+              "field": "source_id"
+            },
+            {
+              "field": "target_id"
+            }
+          ],
+          "sourceMappings": [
+            {
+              "field": "source_id"
+            }
+          ],
+          "targetMappings": [
+            {
+              "field": "target_id"
+            }
+          ],
+          "fileSchema": "detects.csv"
+        },
+        "n11": {
+          "relationshipSchema": "n11",
+          "mappings": [],
+          "sourceMappings": [],
+          "targetMappings": []
+        },
+        "n12": {
+          "relationshipSchema": "n12",
+          "mappings": [
+            {
+              "field": "id"
+            },
+            {
+              "field": "source_id"
+            },
+            {
+              "field": "target_id"
+            }
+          ],
+          "sourceMappings": [
+            {
+              "field": "source_id"
+            }
+          ],
+          "targetMappings": [
+            {
+              "field": "target_id"
+            }
+          ],
+          "fileSchema": "subtechnique_of.csv"
+        },
+        "n13": {
+          "relationshipSchema": "n13",
+          "mappings": [],
+          "sourceMappings": [
+            {
+              "field": "source_id"
+            }
+          ],
+          "targetMappings": [
+            {
+              "field": "target_id"
+            }
+          ],
+          "fileSchema": "uses.csv"
+        },
+        "n14": {
+          "relationshipSchema": "n14",
+          "mappings": [
+            {
+              "field": "id"
+            },
+            {
+              "field": "source_id"
+            },
+            {
+              "field": "target_id"
+            }
+          ],
+          "sourceMappings": [
+            {
+              "field": "source_id"
+            }
+          ],
+          "targetMappings": [
+            {
+              "field": "target_id"
+            }
+          ],
+          "fileSchema": "uses.csv"
+        },
+        "n15": {
+          "relationshipSchema": "n15",
+          "mappings": [],
+          "sourceMappings": [
+            {
+              "field": "ktech_id"
+            }
+          ],
+          "targetMappings": [
+            {
+              "field": "m_tactic_id"
+            }
+          ],
+          "fileSchema": "kbelongs_to.csv"
+        },
+        "n16": {
+          "relationshipSchema": "n16",
+          "mappings": [
+            {
+              "field": "m_ktech_id"
+            },
+            {
+              "field": "tactic_id"
+            }
+          ],
+          "sourceMappings": [
+            {
+              "field": "m_ktech_id"
+            }
+          ],
+          "targetMappings": [
+            {
+              "field": "tactic_id"
+            }
+          ],
+          "fileSchema": "belongs_to.csv"
+        },
+        "n18": {
+          "relationshipSchema": "n18",
+          "mappings": [],
+          "sourceMappings": [],
+          "targetMappings": []
+        },
+        "n19": {
+          "relationshipSchema": "n19",
+          "mappings": [
+            {
+              "field": "kobs_id"
+            },
+            {
+              "field": "kmeasure_id"
+            }
+          ],
+          "sourceMappings": [
+            {
+              "field": "kobs_id"
+            }
+          ],
+          "targetMappings": [
+            {
+              "field": "kmeasure_id"
+            }
+          ],
+          "fileSchema": "features.csv"
+        },
+        "n20": {
+          "relationshipSchema": "n20",
+          "mappings": [
+            {
+              "field": "kobs_id"
+            },
+            {
+              "field": "ktech_id"
+            }
+          ],
+          "sourceMappings": [
+            {
+              "field": "kobs_id"
+            }
+          ],
+          "targetMappings": [
+            {
+              "field": "ktech_id"
+            }
+          ],
+          "fileSchema": "kdetects.csv"
+        }
+      }
+    },
+    "configurations": {
+      "idsToIgnore": []
+    }
+  }
+}

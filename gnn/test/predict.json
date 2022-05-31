@@ -1,0 +1,51 @@
+{
+    "payload": {
+      "demo": "off",
+      "input_graph": {
+        "nodes": 
+          {
+            "kmeasure": [
+              {
+                "node_id": "guidklfsajCKSALCACSJ1",
+                "label": 10001,
+                "feat": [0.2, 1.0]
+              },
+              {
+                "node_id": "guidklfsajCKSALCACSJ2",
+                "label": 10002,
+                "feat": [0.01,1.0]
+              },
+              {
+                "node_id": "guidklfsajCKSALCACSJ3",
+                "label": 10003,
+                "feat": [0.001,1.0]
+              }
+            ],
+            "kobs_state": [
+              {
+                "node_id": "guidklfsajCKSALCACSJ4",
+                "label": 1024,
+                "feat": [0.0,1.0]
+              }
+            ]
+          },
+        "edges": 
+          {
+            "features": [
+              {
+                "src_id": "guidklfsajCKSALCACSJ4",
+                "dst_id": "guidklfsajCKSALCACSJ1"
+              },
+              {
+                "src_id": "guidklfsajCKSALCACSJ4",
+                "dst_id": "guidklfsajCKSALCACSJ2"
+              },
+              {
+                "src_id": "guidklfsajCKSALCACSJ4",
+                "dst_id": "guidklfsajCKSALCACSJ3"
+              }
+            ]
+          }
+      }   
+    }
+  }

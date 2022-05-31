@@ -1,0 +1,20 @@
+dataset_name: gnn_mitre_attack_exp
+edge_data:
+- file_name: features.csv
+  etype: [kobs_state, features, kmeasure]
+- file_name: kdetects.csv
+  etype: [kobs_state, kdetects, ktechnique]
+- file_name: featured_by.csv
+  etype: [kmeasure, featured_by, kobs_state]
+- file_name: kdetected_by.csv
+  etype: [ktechnique, kdetected_by, kobs_state]
+node_data:
+- file_name: kobs_state_feat.csv
+  ntype: kobs_state
+- file_name: ktechnique_feat.csv
+  ntype: ktechnique
+- file_name: kmeasure_feat.csv
+  ntype: kmeasure
+
+#src_id,dst_id,label,feat
+#node_id,dst_id,label,feat
