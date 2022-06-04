@@ -11,7 +11,7 @@ from .util import construct_negative_graph
 from dgl.dataloading import MultiLayerFullNeighborSampler, NodeDataLoader
 
 '''
-TO VISIT the rationale(s) (https://discuss.dgl.ai/t/link-prediction-questions-train-test-accuracy-and-prediction/2177/16)
+TO RE-VISIT the rationale(s) (https://discuss.dgl.ai/t/link-prediction-questions-train-test-accuracy-and-prediction/2177/16)
 from the discussion thread (not covered in tutorial) for:
     - score calculation for inference:
         The pos_score is the logits for each edges. To get accuracy compute (pos_score>0.5).mean().
