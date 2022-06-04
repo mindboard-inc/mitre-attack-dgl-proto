@@ -8,11 +8,11 @@ from .model import MarginLoss, GRGCNModel
 from sklearn.metrics import roc_auc_score
 
 '''
-
-    The repos below provides full demo implementation for the actual DGL Heterogenous Link Prediction
+    The repos below provide full demo implementation for the actual DGL Heterogenous Link Prediction
     documentation and code samples at:
     https://docs.dgl.ai/en/latest/guide/training-link.html#heterogeneous-graphs
-
+    https://github.com/dmlc/dgl
+    
     The method borrowed from models and process available as full model training:
     https://github.com/ZZy979/pytorch-tutorial/blob/master/gnn/dgl/model.py
     https://github.com/ZZy979/pytorch-tutorial/blob/master/gnn/dgl/link_pred_hetero.py
@@ -21,7 +21,6 @@ from sklearn.metrics import roc_auc_score
     https://github.com/ZZy979/pytorch-tutorial/blob/master/gnn/dgl/link_pred_hetero_mb.py
     
 '''
-
 '''
     TO RE-VISIT compute_auc for review, not available in tutorial implementation, patched from 
     various other examples

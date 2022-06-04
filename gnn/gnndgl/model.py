@@ -6,11 +6,11 @@ from dgl.nn import GraphConv, SAGEConv, HeteroGraphConv
 
 
 '''
-
-    The repos below provides full demo implementation for the actual DGL Heterogenous Link Prediction
+    The repos below provide full demo implementation for the actual DGL Heterogenous Link Prediction
     documentation and code samples at:
     https://docs.dgl.ai/en/latest/guide/training-link.html#heterogeneous-graphs
-
+    https://github.com/dmlc/dgl
+    
     The method borrowed from models and process available as full model training:
     https://github.com/ZZy979/pytorch-tutorial/blob/master/gnn/dgl/model.py
     https://github.com/ZZy979/pytorch-tutorial/blob/master/gnn/dgl/link_pred_hetero.py

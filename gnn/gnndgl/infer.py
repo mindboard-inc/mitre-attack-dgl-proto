@@ -11,6 +11,22 @@ from .util import construct_negative_graph
 from dgl.dataloading import MultiLayerFullNeighborSampler, NodeDataLoader
 
 '''
+
+    The repos below provide full demo implementation for the actual DGL Heterogenous Link Prediction
+    documentation and code samples at:
+    https://docs.dgl.ai/en/latest/guide/training-link.html#heterogeneous-graphs
+    https://github.com/dmlc/dgl
+    
+    The method borrowed from models and process available as full model training:
+    https://github.com/ZZy979/pytorch-tutorial/blob/master/gnn/dgl/model.py
+    https://github.com/ZZy979/pytorch-tutorial/blob/master/gnn/dgl/link_pred_hetero.py
+
+    For mini-batch mode which we may need to implement for online training refer to:
+    https://github.com/ZZy979/pytorch-tutorial/blob/master/gnn/dgl/link_pred_hetero_mb.py
+    
+'''
+
+'''
 TO RE-VISIT the rationale(s) (https://discuss.dgl.ai/t/link-prediction-questions-train-test-accuracy-and-prediction/2177/16)
 from the discussion thread (not covered in tutorial) for:
     - score calculation for inference:
