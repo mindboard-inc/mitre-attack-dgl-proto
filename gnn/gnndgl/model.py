@@ -108,7 +108,7 @@ class MarginLoss(nn.Module):
         return (1 - pos_score + neg_score.view(pos_score.shape[0], -1)).clamp(min=0).mean()
 
 '''
-    TO VISIT for poor inference performance, perhaps due to the training method/models:
+    TO RE-VISIT for poor inference performance, perhaps due to the training method/models:
         - exploring using weights on kmeasure feature values through the message passing/embeddings for kobs_state->features->kmeasure 
             somehow the kmeasure value which is the only feature value of interest, does not seem to be carried through effectively through:        
                 RGCNFull(in_features, hidden_features, out_features, rel_names)
