@@ -90,11 +90,17 @@ def infer(dds, input_g,statepath, stub=0):
         dst_node_lbl=g.nodes['ktechnique'].data['label'][dst_id].tolist()
         score=ps[0].tolist()
         '''
+        # DBG
         print("\n ------ Source id:", src_id, ", Source label: ", src_node_lbl, ", i= ",i)
         print("\n ------ Dest id:", dst_id, ", Dest label: ", dst_node_lbl, ", i= ",i)
         print("\n PosScore ------", score)
         '''
-        if (abs(ps) > 0.5):
+        
+        '''
+            TO RE-VISIT
+            Not sure how to interpret a negative posit in the stubs, using the abs value for the infer stub however keeping it as is here.
+        '''
+        if (ps > 0.5):
             if dst_node_lbl in res:
                 score=max(score, res[dst_node_lbl]['score'])
             res[str(dst_node_lbl)]={'label':dst_dict[str(dst_node_lbl)], 'score': score}
