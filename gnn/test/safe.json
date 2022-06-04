@@ -1,6 +1,6 @@
 {
     "payload": {
-      "demo": "predict",
+      "demo": "safe",
       "input_graph": {
         "nodes": 
           {
@@ -24,7 +24,7 @@
             "kobs_state": [
               {
                 "node_id": "guidklfsajCKSALCACSJ4",
-                "label": 1024,
+                "label": 1100,
                 "feat": [0.0,1.0]
               }
             ]

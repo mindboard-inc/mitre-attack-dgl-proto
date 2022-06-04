@@ -7,31 +7,54 @@ from .util import construct_negative_graph
 from .model import MarginLoss, GRGCNModel
 from sklearn.metrics import roc_auc_score
 
+'''
+
+    The repos below provides full demo implementation for the actual DGL Heterogenous Link Prediction
+    documentation and code samples at:
+    https://docs.dgl.ai/en/latest/guide/training-link.html#heterogeneous-graphs
+
+    The method borrowed from models and process available as full model training:
+    https://github.com/ZZy979/pytorch-tutorial/blob/master/gnn/dgl/model.py
+    https://github.com/ZZy979/pytorch-tutorial/blob/master/gnn/dgl/link_pred_hetero.py
+
+    For mini-batch mode which we may need to implement for online training refer to:
+    https://github.com/ZZy979/pytorch-tutorial/blob/master/gnn/dgl/link_pred_hetero_mb.py
+    
+'''
+
+'''
+    TO RE-VISIT compute_auc for review, not available in tutorial implementation, patched from 
+    various other examples
+
+    https://github.com/dmlc/dgl/tree/master/examples
+'''
 def compute_auc(pos_score, neg_score):
     scores = torch.cat([pos_score, neg_score]).detach().numpy()
     labels = torch.cat(
         [torch.ones(pos_score.shape[0]), torch.zeros(neg_score.shape[0])]).numpy()
     return roc_auc_score(labels, scores)
 
+'''
+TO RE-VISIT the rationale(s) (https://discuss.dgl.ai/t/link-prediction-questions-train-test-accuracy-and-prediction/2177/16)
+from the discussion thread (not covered in tutorial) for:
 
-
-
+    - training strategy without test, train:
+        The link prediction does not need to split for training/test set. 
+        In the semi supervised inductive node classification setting, only the label of the test nodes is invisible during the training phase, 
+        but the topology and node itself is visible. Topology is the same for the training and test phase, in the inductive setting. 
+    - score calculation for evalulation as well as and inference:
+        The pos_score is the logits for each edges. To get accuracy compute (pos_score>0.5).mean().
+        The inference function is the calculation of the pos_score
+    - no to little explanation on chice of parameters e.g. input, output, hidden layer size, coefficient for negative edges
+        unstable when the defaults from sample code is changed.
+'''
 def train(g,savepath=""):
-    #print("\n\n-----------------\n", g.ndata)
-    '''
-    VIA https://discuss.dgl.ai/t/link-prediction-questions-train-test-accuracy-and-prediction/2177/16
-    The link prediction does not need to split for training/test set. 
-    In the semi supervised inductive node classification setting, only the label of the test nodes is invisible during the training phase, 
-    but the topology and node itself is visible. Topology is the same for the training and test phase, in the inductive setting. 
-    The pos_score is the logits for each edges. To get accuracy compute (pos_score>0.5).mean().
-    The inference function is the calculation of the pos_score
-    '''
-    
+    #print("\n\n-----------------\n", g.ndata)    
     k = 10
     #model = Model(in_feats, 20, 5, g.etypes)
     in_feats = g.nodes['kobs_state'].data['feat'].shape[1]
 
-    # do not change the out features -- 6 is the embedding dimension driven by in and our features 2 x 2 x 2
+    # do not change the out_features -- 6 is the embedding dimension driven by in and our features 2 x 2 x 2
     model = GRGCNModel(in_feats, in_feats, 6, g.etypes)
     opt = optim.Adam(model.parameters())
     loss_func = MarginLoss()

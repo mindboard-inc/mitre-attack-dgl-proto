@@ -5,7 +5,20 @@ import torch.nn.functional as F
 from dgl.nn import GraphConv, SAGEConv, HeteroGraphConv
 
 
+'''
 
+    The repos below provides full demo implementation for the actual DGL Heterogenous Link Prediction
+    documentation and code samples at:
+    https://docs.dgl.ai/en/latest/guide/training-link.html#heterogeneous-graphs
+
+    The method borrowed from models and process available as full model training:
+    https://github.com/ZZy979/pytorch-tutorial/blob/master/gnn/dgl/model.py
+    https://github.com/ZZy979/pytorch-tutorial/blob/master/gnn/dgl/link_pred_hetero.py
+
+    For mini-batch mode which we may need to implement for online training refer to:
+    https://github.com/ZZy979/pytorch-tutorial/blob/master/gnn/dgl/link_pred_hetero_mb.py
+    
+'''
 
 class SAGEFull(nn.Module):
 
@@ -89,6 +102,29 @@ class HeteroMLPPredictor(nn.Module):
             graph.apply_edges(self.apply_edges, etype=etype)
             return graph.edges[etype].data['score']
 
+class MarginLoss(nn.Module):
+
+    def forward(self, pos_score, neg_score):
+        return (1 - pos_score + neg_score.view(pos_score.shape[0], -1)).clamp(min=0).mean()
+
+'''
+    TO VISIT for poor inference performance, perhaps due to the training method/models:
+        - exploring using weights on kmeasure feature values through the message passing/embeddings for kobs_state->features->kmeasure 
+            somehow the kmeasure value which is the only feature value of interest, does not seem to be carried through effectively through:        
+                RGCNFull(in_features, hidden_features, out_features, rel_names)
+                HeteroDotProductPredictor()
+
+'''
+class GRGCNModel(nn.Module):
+    def __init__(self, in_features, hidden_features, out_features, rel_names):
+        super().__init__()
+        self.rgcn = RGCNFull(in_features, hidden_features, out_features, rel_names)
+        self.pred = HeteroDotProductPredictor()
+
+    def forward(self, g, neg_g, x, etype):
+        h = self.rgcn(g, x)
+        return self.pred(g, h, etype), self.pred(neg_g, h, etype)
+
 
 '''
     Alternative Model  extended to all edges and not only the predicted one
@@ -121,21 +157,5 @@ class HeteroDotProductPredictorAlt(nn.Module):
             return graph.edges[etype].data['score']
 
 '''
-    Alternative Model end
+    Alternatives end
 '''
-
-class MarginLoss(nn.Module):
-
-    def forward(self, pos_score, neg_score):
-        return (1 - pos_score + neg_score.view(pos_score.shape[0], -1)).clamp(min=0).mean()
-
-
-class GRGCNModel(nn.Module):
-    def __init__(self, in_features, hidden_features, out_features, rel_names):
-        super().__init__()
-        self.rgcn = RGCNFull(in_features, hidden_features, out_features, rel_names)
-        self.pred = HeteroDotProductPredictor()
-
-    def forward(self, g, neg_g, x, etype):
-        h = self.rgcn(g, x)
-        return self.pred(g, h, etype), self.pred(neg_g, h, etype)
