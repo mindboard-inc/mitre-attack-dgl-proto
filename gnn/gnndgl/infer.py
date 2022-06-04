@@ -38,7 +38,6 @@ from the discussion thread (not covered in tutorial) for:
     - very poor inference performance, somehow either due to the dgen generated training set:
         - 'detecting' kmeasure feature values with very small variation e.g. compare 0 for safe to 0.01 for detect (maybe just mark them as 1 or 0 -- and not an actual measure, or use logn instead)
         - far fewer detecting features and associated thread states than safe ones 
-        - perhaps using weights on kmeasure feature values through the message passing/embeddings for kobs_state->features->kmeasure 
        or due to the training method/models:
         - perhaps using weights on kmeasure feature values through the message passing/embeddings for kobs_state->features->kmeasure 
             somehow the kmeasure value which is the only feature value of interest, does not seem to be carried through effectively through:        
